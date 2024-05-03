@@ -64,6 +64,21 @@
     color: #669bbc; /* Text color changes on hover */
 }
 
+.styled-input {
+    padding: 10px; 
+    width: 40%; 
+    margin-bottom: 10px; 
+    border: 2px solid #669bbc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+}
+
+.styled-input:focus {
+    outline: none; /* Removes the default focus outline */
+    border-color: #fdf0d5; /* Changes border color on focus for better visibility */
+}
+
+
 /* download display */
 
 #downloadLinks  {
