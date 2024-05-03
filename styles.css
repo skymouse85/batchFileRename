@@ -25,6 +25,8 @@
 }
 
 
+
+
 #instructions {
     display:grid;
     align-items:center;
@@ -41,8 +43,26 @@
 #namingConvention {
     padding-right:5px;
     margin-right: 10px;
+    width:fit-content;
+}
+/* button styles */
+
+.styled-button {
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: #4caf50;
+    color: whitesmoke;
+    border: 3px solid #4caf50;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
+.styled-button:hover {
+    background-color: white; /* Color inversion on hover */
+    color: #4CAF50; /* Text color changes on hover */
+}
 
 /* download display */
 
