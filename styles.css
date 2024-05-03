@@ -50,9 +50,9 @@
 .styled-button {
     padding: 10px 20px;
     margin: 20px;
-    background-color: #4caf50;
+    background-color: #669bbc;
     color: whitesmoke;
-    border: 3px solid #4caf50;
+    border: 3px solid #fdf0d5;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
@@ -61,7 +61,7 @@
 
 .styled-button:hover {
     background-color: white; /* Color inversion on hover */
-    color: #4CAF50; /* Text color changes on hover */
+    color: #669bbc; /* Text color changes on hover */
 }
 
 /* download display */
