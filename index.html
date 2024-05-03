@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Batch File Renamer</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+        <div class="header">
+            <h1>Batch File Renaming Tool</h1>
+        </div>
+        <div class="header"><h3>Greetings, fair file namer, may this page find you well and productive.</h3></div>
+        <div id="instructions">
+            <p>To use this tool, select the files you wish to rename in sequence, enter the name that you wish to assign to your files, and use '{n}' after. </p>
+            <p>For example -  MGP APP 24_0{n} will produce MGP APP 24_01, MGP APP 24_02, ect...</p>
+        </div>
+        <div id="main">
+            <input type="file" id="fileInput" multiple>
+            <input type="text" id="namingConvention" placeholder="Enter naming convention e.g., file_{n}">
+            <label for="keepOriginalName">Keep original name:</label>
+            <input type="checkbox" id="keepOriginalName">
+            <label for="replaceUnderscores">Replace underscores with spaces:</label>
+            <input type="checkbox" id="replaceUnderscores">
+            <button onclick="renameFiles()">Rename Files</button>
+            
+        </div>
+        <ul id="downloadLinks"></ul>
+
+
+        <script src="app.js"></script>
+    </body>
+</html>

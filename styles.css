@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+    font-family:"Radio Canada Big", sans-serif;
+    color: #ebf4f5;
+    background: #003049;
+
+    /* background: linear-gradient(90deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%); */
+}
+
+.header {
+    /* background:aquamarine; */
+    display:flex;
+    justify-content:center;
+    /* font-family:"Radio Canada Big", sans-serif; */
+}
+
+#fileInput {
+    padding-left: 10px;
+}
+
+#file-upload-button {
+    margin-left:16px;
+    /* font-family:"Radio Canada Big", sans-serif; */
+}
+
+
+#instructions {
+    display:grid;
+    align-items:center;
+    padding: 5px 5px;
+    font-family:"Radio Canada Big", sans-serif;
+    font-style: normal;
+    /* font-size: large;  */
+    margin-bottom: 10px;
+    border-bottom: solid black 5px;
+    text-align: center;
+}
+
+
+#namingConvention {
+    padding-right:5px;
+    margin-right: 10px;
+}
+
+
+/* download display */
+
+#downloadLinks  {
+    list-style-type: square; /* Removes the default list bullets */
+    padding: 0;
+    /* display: block; */
+    margin-left: 3em;
+}
+#downloadLinks li {
+    margin-bottom: 10px; /* Adds space between list items */
+}
+#downloadLinks a {
+    color: #ebf4f5; /* Styles the links */
+    text-decoration: none; /* Removes underline */
+}
+#downloadLinks a:hover {
+    text-decoration: underline; /* Underlines links on hover */
+} 
+
