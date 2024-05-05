@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <title>Batch File Renamer</title>
 <link rel="stylesheet" href="styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+
 </head>
     <body>
         <div class="header">
@@ -25,6 +27,7 @@
         </div>
         <div class="button-container">
             <button class="styled-button"  onclick="renameFiles()">Rename Files</button>
+            <button class="styled-button" onclick="renameAndDownloadFiles()">Download All as ZIP</button>
         </div>
         <ul id="downloadLinks"></ul>
 
