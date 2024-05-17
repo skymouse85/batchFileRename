@@ -25,7 +25,13 @@
 }
 
 
-
+.body_div {
+    display: flex;
+    padding: 1.5em;
+    align-items:center;
+    border-bottom:solid #669bbc 3px;;
+    /* justify-content:space-around */
+}
 
 #instructions {
     display:grid;
@@ -35,7 +41,7 @@
     font-style: normal;
     /* font-size: large;  */
     margin-bottom: 10px;
-    border-bottom: solid black 5px;
+    border-bottom: solid #669bbc 5px;
     text-align: center;
 }
 
@@ -66,12 +72,23 @@
 
 .styled-input {
     padding: 10px; 
-    width: 40%; 
+    width: 150px; 
+    margin: 10px;
+    border: 2px solid #669bbc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+}
+
+.file-input {
+    margin-right:10px;
+    padding: 10px; 
+    width: 400spx; 
     margin-bottom: 10px; 
     border: 2px solid #669bbc; 
     border-radius: 5px; 
     box-sizing: border-box; 
 }
+
 
 .styled-input:focus {
     outline: none; /* Removes the default focus outline */

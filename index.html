@@ -16,14 +16,23 @@
             <p>To use this tool, select the files you wish to rename in sequence, enter the name that you wish to assign to your files, and use '{n}' after. </p>
             <p>For example -  MGP APP 24_0{n} will produce MGP APP 24_01, MGP APP 24_02, ect...</p>
         </div>
-        <div id="main">
-            <input type="file" id="fileInput" multiple class="styled-input">
-            <input type="text" id="namingConvention" placeholder="Enter naming convention e.g., file_{n}" class="styled-input">
+        <div id="main" class="body_div">
+            <input type="file" id="fileInput" multiple class="file-input">
+            <input type="text" id="namingConvention" placeholder="Enter naming convention e.g., file_{n}" class="file-input">
+        </div>
+        
+        <div class="body_div">
+            <p>Use these to rename Transaction Report downloads</p>
+            <input type="text" id="depNum" placeholder="Deposit Number" class="styled-input">
+            <input type="text" id="depDate" placeholder="Deposit Date" class="styled-input">
+            <input type="text" id="chNum" placeholder="Check Number" class="styled-input">
+        </div>
+        <div class="body_div">
             <label for="keepOriginalName">Keep original name:</label>
             <input type="checkbox" id="keepOriginalName">
             <label for="replaceUnderscores">Replace underscores with spaces:</label>
             <input type="checkbox" id="replaceUnderscores">
-            
+
         </div>
         <div class="button-container">
             <button class="styled-button"  onclick="renameFiles()">Rename Files</button>
