@@ -6,7 +6,7 @@ function renameFiles() {
     const keepOriginalName = document.getElementById('keepOriginalName').checked;
     const xlsx = require('xlsx');
 
-
+    //TODO throw away original files
     // const zip = new JSZip();
 
     downloadLinks.innerHTML = ''; //clear previous links
