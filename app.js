@@ -130,7 +130,7 @@ function populateAffiliates(affiliates) {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('public/affiliates.json')
+    fetch('/affiliates.json')
         .then(response => response.json())
         .then(affiliates => {
             const selectElement = document.getElementById('affiliate-select');
