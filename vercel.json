@@ -4,5 +4,13 @@
     "routes": [
       { "handle": "filesystem" },
       { "src": "/(.*)", "dest": "/public/$1" }
-    ]
+    ],
+    "headers": [
+        {
+          "source": "/public/(.*)",
+          "headers": [
+            { "key": "Cache-Control", "value": "max-age=0" }
+          ]
+        }
+      ]
   }
