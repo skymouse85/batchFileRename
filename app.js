@@ -4,7 +4,16 @@ function renameFiles() {
     const replaceUnderscores = document.getElementById('replaceUnderscores').checked;
     const downloadLinks = document.getElementById('downloadLinks');
     const keepOriginalName = document.getElementById('keepOriginalName').checked;
-    const xlsx = require('xlsx');
+    const transactionRepType = document.getElementById('platformSelect').value;
+    const depNum = document.getElementById('depNum').value;
+    const checks = document.getElementById('checks').value;
+    const checkDepNum = document.getElementById('checkDepNum').value;
+    const checkDate = document.getElementById('checkDate').value;
+    const chNum = document.getElementById('chNum').value;
+    const donor = document.getElementById('donor').value;
+    const amount = document.getElementById('amount').value;
+    const affiliateSelect = document.getElementById('affiliateSelect').value;
+    // const xlsx = require('xlsx');
 
     //TODO throw away original files
     // const zip = new JSZip();
@@ -24,6 +33,15 @@ function renameFiles() {
         // Replace underscores if the option is checked
         if (replaceUnderscores) {
             newFileName = newFileName.replace(/_/g, ' ');
+        }
+
+        // strictly deal with transaction reports
+        if (transactionRepType) {
+            newFileName = `${depDate} ${transactionRepType} Transaction Reports DEP_NUM ${depNum}`;
+        }
+
+        if (checks) {
+            newFileName = `${checkDepNum} ${checkDate} ${chNum} ${donor} ${amount} ${affiliateSelect}`;
         }
 
         // Create Blob URL for the new file
@@ -82,7 +100,6 @@ function renameFiles() {
             document.body.removeChild(link);
         })
     }
-
 
 
 
