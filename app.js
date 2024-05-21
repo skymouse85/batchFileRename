@@ -13,7 +13,7 @@ function renameFiles() {
     const donor = document.getElementById('donor').value;
     const amount = document.getElementById('amount').value;
     const affiliateSelect = document.getElementById('affiliateSelect').value;
-    const xlsx = require('xlsx');
+    // const xlsx = require('xlsx');
 
     //TODO throw away original files
     // const zip = new JSZip();
