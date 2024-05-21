@@ -13,7 +13,7 @@ function renameFiles() {
     const donor = document.getElementById('donor').value;
     const amount = document.getElementById('amount').value;
     const affiliateSelect = document.getElementById('affiliateSelect').value;
-    // const xlsx = require('xlsx');
+    const xlsx = require('xlsx');
 
     //TODO throw away original files
     // const zip = new JSZip();
@@ -40,9 +40,9 @@ function renameFiles() {
             newFileName = `${depDate} ${transactionRepType} Transaction Reports DEP_NUM ${depNum}`;
         }
 
-        if (checks) {
-            newFileName = `${checkDepNum} ${checkDate} ${chNum} ${donor} ${amount} ${affiliateSelect}`;
-        }
+        // if (checks) {
+        //     newFileName = `${checkDepNum} ${checkDate} ${chNum} ${donor} ${amount} ${affiliateSelect}`;
+        // }
 
         // Create Blob URL for the new file
         const blob = new Blob([file], { type: file.type });
@@ -134,13 +134,13 @@ function renameFiles() {
 }
 
 function populateAffiliates(affiliates) {
-    const selectElement = document.getElementById('affiliate-select');
-    selectElement.innerHTML = '';  // Clear existing options
+    const affiliateSelect = document.getElementById('affiliateSelect');
+    affiliateSelect.innerHTML = '';  // Clear existing options
     affiliates.forEach(affiliate => {
         const option = document.createElement('option');
         option.value = affiliate.value;
         option.textContent = affiliate.name;
-        selectElement.appendChild(option);
+        affiliateSelect.appendChild(option);
     });
 }
 
@@ -150,12 +150,12 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch('/affiliates.json')
         .then(response => response.json())
         .then(affiliates => {
-            const selectElement = document.getElementById('affiliate-select');
+            const affiliateSelect = document.getElementById('affiliateSelect');
             affiliates.forEach(affiliate => {
                 const option = document.createElement('option');
                 option.value = affiliate.value;
                 option.textContent = affiliate.name;
-                selectElement.appendChild(option);
+                affiliateSelect.appendChild(option);
             });
         })
         .catch(error => console.error('Failed to load affiliates:', error));
