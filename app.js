@@ -9,6 +9,7 @@ function renameFiles() {
     const checks = document.getElementById('checks').value;
     const checkDepNum = document.getElementById('checkDepNum').value;
     const checkDate = document.getElementById('checkDate').value;
+    const depDate = document.getElementById('depDate').value;
     const chNum = document.getElementById('chNum').value;
     const donor = document.getElementById('donor').value;
     const amount = document.getElementById('amount').value;
