@@ -6,68 +6,63 @@
 <link rel="stylesheet" href="styles.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
 <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
-
-
-
 </head>
-    <body>
-        <div class="header">
-            <h1>InterMusic SF File Renaming Tool</h1>
-        </div>
-        <div class="header"><h3>Greetings, fair file namer, may this page find you well and productive.</h3></div>
-        <div id="instructions">
-            <a href="/readme.md" style="color: #ebf4f5">READ ME</a>
-        </div>
-        <div id="main" class="body_div">
-            <input type="file" id="fileInput" multiple class="file-input">
-            <input type="text" id="namingConvention" placeholder="Enter naming convention e.g., file_{n}" class="file-input">
-        </div>
-        <!-- Transaction Reports -->
-        <div class="body_div">
-            <h3 class="section-label">Transaction Report Downloads</h3>
-            <!-- <label for="platform-select" class="section-label">Platform</label> -->
-            <select name="platforms" id="platformSelect" class="styled-input" >
-                <option value="" disabled selected>Platform</option>
-                <option value="Stripe">Stripe</option>
-                <option value="SafeSave">SafeSave</option>
-                <option value="PayPal">PayPal</option>
-                <option value="payModeX">Paymode X</option>
-                <option value="Stripe">Stripe</option>
-            </select>
-            <input type="text" id="depNum" placeholder="Deposit Number" class="styled-input">
-            <input type="text" id="depDate" placeholder="Deposit Date" class="styled-input">
-        </div>
+<body>
+    <div class="header">
+        <h1>InterMusic SF File Renaming Tool</h1>
+    </div>
+    <div class="header"><h3>Greetings, fair file namer, may this page find you well and productive.</h3></div>
+    <div id="instructions">
+        <a href="/readme.md" style="color: #ebf4f5">READ ME</a>
+    </div>
+    <div id="main" class="body_div">
+        <input type="file" id="fileInput" multiple class="file-input">
+        <input type="text" id="namingConvention" placeholder="Enter naming convention e.g., file_{n}" class="file-input">
+    </div>
+    <!-- Transaction Reports -->
+    <div class="body_div">
+        <h3 class="section-label">Transaction Report Downloads</h3>
+        <select name="platforms" id="platformSelect" class="styled-input" >
+            <option value="" disabled selected>Platform</option>
+            <option value="Stripe">Stripe</option>
+            <option value="SafeSave">SafeSave</option>
+            <option value="PayPal">PayPal</option>
+            <option value="payModeX">Paymode X</option>
+            <option value="Stripe">Stripe</option>
+            <option value="Benevity">Benevity</option>
+        </select>
+        <input type="text" id="depNum" placeholder="Deposit Number" class="styled-input">
+        <input type="text" id="depDate" placeholder="Deposit Date" class="styled-input">
+    </div>
 
-        <!-- Check Scans -->
-        <div class="body_div">
-            <h3 class="section-label">Check Scans</h3>
-            <input type="checkbox" id="checks">
-            <label for="checks">Rename Check Scan</label>
-            <input type="text" id="checkDepNum" placeholder="Deposit Number" class="styled-input">
-            <input type="text" id="checkDate" placeholder="Check Date" class="styled-input">
-            <input type="text" id="chNum" placeholder="Check Number" class="styled-input">
-            <input type="text" id="donor" placeholder="Donor" class="styled-input">
-            <input type="text" id="amount" placeholder="Amount" class="styled-input">
-            <select name="affiliate-select" id="affiliateSelect" class="styled-input">
-                <option value="">Select an Affiliate</option>
-            </select>
-        </div>
+    <!-- Check Scans -->
+    <div class="body_div">
+        <h3 class="section-label">Check Scans</h3>
+        <input type="checkbox" id="checks">
+        <label for="checks">Rename Check Scan</label>
+        <input type="text" id="checkDepNum" placeholder="Deposit Number" class="styled-input">
+        <input type="text" id="checkDate" placeholder="Check Date" class="styled-input">
+        <input type="text" id="chNum" placeholder="Check Number" class="styled-input">
+        <input type="text" id="donor" placeholder="Donor" class="styled-input">
+        <input type="text" id="amount" placeholder="Amount" class="styled-input">
+        <select name="affiliate-select" id="affiliateSelect" class="styled-input">
+            <option value="">Select an Affiliate</option>
+        </select>
+    </div>
 
-        <!-- Rename general -->
-        <div class="body_div">
-            <label for="keepOriginalName" class="row-header">Keep original name:</label>
-            <input type="checkbox" id="keepOriginalName">
-            <label for="replaceUnderscores">Replace underscores with spaces:</label>
-            <input type="checkbox" id="replaceUnderscores">
+    <!-- Rename general -->
+    <div class="body_div">
+        <label for="keepOriginalName" class="row-header">Keep original name:</label>
+        <input type="checkbox" id="keepOriginalName">
+        <label for="replaceUnderscores">Replace underscores with spaces:</label>
+        <input type="checkbox" id="replaceUnderscores">
+    </div>
+    <div class="button-container">
+        <button class="styled-button" onclick="renameFiles()">Rename Files</button>
+        <button class="styled-button" onclick="renameAndDownloadFiles()">Download All as ZIP</button>
+    </div>
+    <ul id="downloadLinks"></ul>
 
-        </div>
-        <div class="button-container">
-            <button class="styled-button"  onclick="renameFiles()">Rename Files</button>
-            <button class="styled-button" onclick="renameAndDownloadFiles()">Download All as ZIP</button>
-        </div>
-        <ul id="downloadLinks"></ul>
-
-
-        <script src="app.js" defer></script>
-    </body>
+    <script src="app.js" defer></script>
+</body>
 </html>
