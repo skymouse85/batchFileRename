@@ -1,710 +1,407 @@
 [
   {
-    "value": "11150_AACI-AFRICANAMCOMPOSERIN",
-    "name": "African American Composer Initiative"
+    "affil_id": 11150,
+    "name": "Jodi Gandolfi",
+    "project": "African American Composer Initiative (AACI)"
   },
   {
-    "value": "11151_AFTER",
-    "name": "After Everything"
+    "affil_id": 11151,
+    "name": "Matthew Cmiel",
+    "project": "After Everything"
   },
   {
-    "value": "11152_AGAVE",
-    "name": "Agave Baroque"
+    "affil_id": 11152,
+    "name": "Aaron Westman",
+    "project": "Agave"
   },
   {
-    "value": "11202_AISHWARYA_SRINIVAS",
-    "name": "Aishwarya Srinivas"
+    "affil_id": 11153,
+    "name": "Tiffany Austin",
+    "project": "Albany Juneteenth Celebration"
   },
   {
-    "value": "11153_ALBANY_JUNETEENTH",
-    "name": "Albany Juneteenth Celebration"
+    "affil_id": 11154,
+    "name": "Amy Likar",
+    "project": "Alcyone Ensemble"
   },
   {
-    "value": "11154_ALCYONE",
-    "name": "Alcyone Ensemble"
+    "affil_id": 11155,
+    "name": "Sandy Wilson",
+    "project": "Alexander String Quartet"
   },
   {
-    "value": "11155_ALEXANDER",
-    "name": "Alexander String Quartet"
+    "affil_id": 11161,
+    "name": "Amy X Neuberg",
+    "project": "Amy X Neuburg"
   },
   {
-    "value": "11156_ALISA_ROSE",
-    "name": "Alisa Rose"
+    "affil_id": 11162,
+    "name": "Matthew Montfort",
+    "project": "Ancient Future"
   },
   {
-    "value": "11157_AMARANTH",
-    "name": "Amaranth Quartet"
+    "affil_id": 11569,
+    "name": "Elizabeth Roe",
+    "project": "Anderson & Roe"
   },
   {
-    "value": "11161_AMY_X_NEW",
-    "name": "Amy X Neuburg"
+    "affil_id": 11163,
+    "name": "Anna Maria Mendieta",
+    "project": "Anna Maria Mendieta"
   },
   {
-    "value": "11162_ANCIENT_FUTURE",
-    "name": "Ancient Future"
+    "affil_id": 11451,
+    "name": "Emily Tian",
+    "project": "ARc duET"
   },
   {
-    "value": "11569_ANDERSON_ROE",
-    "name": "Anderson & Roe"
+    "affil_id": 11595,
+    "name": "Annah Sidigu",
+    "project": "Artists Resisting Exploitation"
   },
   {
-    "value": "11163_ANNA_MARIA",
-    "name": "Anna Maria Mendieta"
+    "affil_id": 11165,
+    "name": "Mia Nardi-Huffman",
+    "project": "Astraeus String Quartet"
   },
   {
-    "value": "11451_ARC_DUET",
-    "name": "ARc duET"
+    "affil_id": 11170,
+    "name": "Gail Hernandez Rosa",
+    "project": "Beneath a Tree"
   },
   {
-    "value": "11595_ARE",
-    "name": "Artists Resisting Exploitation"
+    "affil_id": 8631,
+    "name": "Jane Lenoir",
+    "project": "Berkeley Choro Ensemble"
   },
   {
-    "value": "11165_ASTRAEUS",
-    "name": "Astraeus String Quartet"
+    "affil_id": 11172,
+    "name": "Brian Rice",
+    "project": "Berkeley Festival of Choro"
   },
   {
-    "value": "11166_BAUMER_NEW",
-    "name": "Baumer Quartet"
+    "affil_id": 11176,
+    "name": "Dan Flanagan",
+    "project": "Bow and the Brush"
   },
   {
-    "value": "11167_BAMC",
-    "name": "Bay Area Music Consortium"
+    "affil_id": 11177,
+    "name": "Ari Micich",
+    "project": "Brass Over Bridges"
   },
   {
-    "value": "11168_BELLA",
-    "name": "Bella Piano Trio"
+    "affil_id": 11179,
+    "name": "Vicky Wang",
+    "project": "C'est Bon Chamber Music Academy"
   },
   {
-    "value": "11170_BENEATH",
-    "name": "Beneath a Tree"
+    "affil_id": 11571,
+    "name": "Carla Lucero",
+    "project": "Carla Lucero (FSP)"
   },
   {
-    "value": "11171_BENVENUE",
-    "name": "Benvenue House Music"
+    "affil_id": 11186,
+    "name": "Omid Assadi",
+    "project": "Circadian String Quartet"
   },
   {
-    "value": "08631_BERK_CHORO_ENS",
-    "name": "Berkeley Choro Ensemble"
+    "affil_id": 11187,
+    "name": "Charith Premawardhana",
+    "project": "Classical Revolution"
   },
   {
-    "value": "11172_BERK_CHORO_FEST",
-    "name": "Berkeley Festival of Choro"
+    "affil_id": 11189,
+    "name": "Rachel Kim",
+    "project": "Curium"
   },
   {
-    "value": "11173_BERNAL_HILL",
-    "name": "Bernal Hill Players"
+    "affil_id": 11191,
+    "name": "David Garner",
+    "project": "David Garner (FSP Record)"
   },
   {
-    "value": "11175_BLACK_CEDAR",
-    "name": "Black Cedar"
+    "affil_id": 11192,
+    "name": "David James",
+    "project": "David James's GPS"
   },
   {
-    "value": "11177_BRASS",
-    "name": "Brass Over Bridges"
+    "affil_id": 11194,
+    "name": "Marcus Phillips",
+    "project": "Deep Tones"
   },
   {
-    "value": "11179_CEST_BON",
-    "name": "C'est Bon Chamber Music Academy"
+    "affil_id": 11197,
+    "name": "Destiny Muhammad",
+    "project": "Destiny Muhammad Project"
   },
   {
-    "value": "11571_CARLA_LUCERO",
-    "name": "Carla Lucero"
+    "affil_id": 11198,
+    "name": "Tiffany Austin",
+    "project": "Diaspora Sessions"
   },
   {
-    "value": "11327_CASTALIAN",
-    "name": "Castalian String Quartet"
+    "affil_id": 11348,
+    "name": "Robert Bead",
+    "project": "ECHO Chamber Orchestra"
   },
   {
-    "value": "11180_CELLO_ST",
-    "name": "Cello Street Quartet"
+    "affil_id": 11124,
+    "name": "Nanette McGuinness",
+    "project": "Ensemble for These Times"
   },
   {
-    "value": "11345_CMARF",
-    "name": "Chamber Music at Rancho Flaubert"
+    "affil_id": 11208,
+    "name": "Matthew Oshida",
+    "project": "Farallon Quintet"
   },
   {
-    "value": "11181_CMSSF",
-    "name": "Chamber Music San Francisco"
+    "affil_id": 11209,
+    "name": "Letitia Berlin",
+    "project": "Farallon Recorder Quartet"
   },
   {
-    "value": "11183_CHORDA",
-    "name": "Chorda"
+    "affil_id": 11452,
+    "name": "Frank Swart",
+    "project": "Frank Swart"
   },
   {
-    "value": "11184_CHORDLESS",
-    "name": "Chordless"
+    "affil_id": 11213,
+    "name": "Frank Tusa",
+    "project": "Frank Tusa"
   },
   {
-    "value": "11185_CCMC",
-    "name": "Chromatic Community Music Center"
+    "affil_id": 11216,
+    "name": "George Brooks",
+    "project": "George Brooks"
   },
   {
-    "value": "11186_CIRCADIAN",
-    "name": "Circadian String Quartet"
+    "affil_id": 11224,
+    "name": "Emma Logan",
+    "project": "Helia Music Collective"
   },
   {
-    "value": "11187_CLASSICAL_REV_NEW",
-    "name": "Classical Revolution"
+    "affil_id": 11226,
+    "name": "Ian Dogole",
+    "project": "Ian Dogole & Music Beyond Borders"
   },
   {
-    "value": "11188_COMPOSING_TOGETHER",
-    "name": "Composing Together"
+    "affil_id": 11232,
+    "name": "Kate Stenberg",
+    "project": "Kate Stenberg Music Projects"
   },
   {
-    "value": "11305_TIFFANY_A",
-    "name": "Con Alma Music Scholarship"
+    "affil_id": 11220,
+    "name": "Ellie Ganelin",
+    "project": "Kombos Collective"
   },
   {
-    "value": "11189_CURIUM_TRIO",
-    "name": "Curium Trio"
+    "affil_id": 11235,
+    "name": "Kurt Erickson",
+    "project": "Kurt Erickson"
   },
   {
-    "value": "11190_DARREN_J_NEW",
-    "name": "Darren Johnston"
+    "affil_id": 11237,
+    "name": "Ruth  Stuart",
+    "project": "La Sala Chamber Players"
   },
   {
-    "value": "11191_DAVID_GARNER",
-    "name": "David Garner"
+    "affil_id": 11239,
+    "name": "Angela Lee",
+    "project": "Lee Trio"
   },
   {
-    "value": "11192_DAVID_JAMES",
-    "name": "David James's GPS"
+    "affil_id": 11241,
+    "name": "Maxine Bernstein",
+    "project": "Lieder Alive!"
   },
   {
-    "value": "11193_DAVIDE_V",
-    "name": "Davide Verotta"
+    "affil_id": 11247,
+    "name": "Mariah Parker",
+    "project": "Mariah Parker‚Äôs Indo Latin Jazz Ensemble"
   },
   {
-    "value": "11195_DEL_SOL_STRING_QUARTET",
-    "name": "Del Sol Quartet"
+    "affil_id": 11596,
+    "name": "Max Van Praag",
+    "project": "Max Van Praag"
   },
   {
-    "value": "11196_DELPHI_TRIO",
-    "name": "Delphi Trio"
+    "affil_id": 11250,
+    "name": "Meerenai Shim",
+    "project": "Meerenai Shim"
   },
   {
-    "value": "11197_DESTINY_MUHAMMAD",
-    "name": "Destiny Muhammad Project"
+    "affil_id": 11256,
+    "name": "Nancy Zhou",
+    "project": "Nancy Zhou, Affiliate"
   },
   {
-    "value": "11198_DIASPORA_SESSIONS",
-    "name": "Diaspora Sessions"
+    "affil_id": 11262,
+    "name": "Jon Szin",
+    "project": "Nomad Session"
   },
   {
-    "value": "11199_DOUBLETAKE",
-    "name": "Doubletake"
+    "affil_id": 11265,
+    "name": "Obed Calvaire",
+    "project": "Obed Calvaire"
   },
   {
-    "value": "11200_DUO_CAMARADERIE",
-    "name": "Duo Camaraderie"
+    "affil_id": 11266,
+    "name": "Gary Muszynski",
+    "project": "One World Music / Gary Muszynski / Roots & Wings"
   },
   {
-    "value": "11201_DUO_REVIRADO",
-    "name": "Duo Revirado"
+    "affil_id": 11268,
+    "name": "Pamela Freund-Striplen",
+    "project": "Pamela Freund-Striplen"
   },
   {
-    "value": "11348_ECHO_CHAM_ORCH",
-    "name": "ECHO Chamber Orchestra"
+    "affil_id": 11572,
+    "name": "Pedro Josv¬© Pastrana",
+    "project": "Pastrana"
   },
   {
-    "value": "11203_ELEVATE",
-    "name": "Elevate Ensemble"
+    "affil_id": 11269,
+    "name": "Patrick Galvin",
+    "project": "Patrick Galvin (FSP)"
   },
   {
-    "value": "11124_E4TT",
-    "name": "Ensemble for These Times"
+    "affil_id": 11272,
+    "name": "Wendy Clymer",
+    "project": "Persephone Chamber Ensemble"
   },
   {
-    "value": "11204_ENS_SF",
-    "name": "Ensemble San Francisco"
+    "affil_id": 11274,
+    "name": "Debbie Dare",
+    "project": "Pro Musica Ensemble"
   },
   {
-    "value": "11205_EOS",
-    "name": "EOS Ensemble"
+    "affil_id": 11275,
+    "name": "Jeremy Cohen",
+    "project": "Quartet San Francisco"
   },
   {
-    "value": "11206_ERIK_J",
-    "name": "Erik Jacobson"
+    "affil_id": 11350,
+    "name": "Raffi Garabedian",
+    "project": "Raffi Garabedian"
   },
   {
-    "value": "11208_FARALLON_QUINT",
-    "name": "Farallon Quintet"
+    "affil_id": 11433,
+    "name": "Jesse Bay",
+    "project": "Ramon & Jessica"
   },
   {
-    "value": "11209_FARALLON_RECORDER",
-    "name": "Farallon Recorder Quartet"
+    "affil_id": 11277,
+    "name": "Irene Sazer",
+    "project": "Real Vocal String Quartet"
   },
   {
-    "value": "11210_FEST_ROLL",
-    "name": "Festival Rolland"
+    "affil_id": 11278,
+    "name": "Rent Romus",
+    "project": "Rent Romus, Affiliate"
   },
   {
-    "value": "11211_FIRESONG",
-    "name": "Firesong"
+    "affil_id": 11279,
+    "name": "Rohan Krishnamurthy",
+    "project": "Rohan Krishnamurthy"
   },
   {
-    "value": "11452_FRANK_SWART",
-    "name": "Frank Swart"
+    "affil_id": 11282,
+    "name": "Sam Reider",
+    "project": "Sam Reider"
   },
   {
-    "value": "11213_FRANK_TUSA",
-    "name": "Frank Tusa"
+    "affil_id": 11221,
+    "name": "Eric Harland",
+    "project": "Second Take Sound LLC"
   },
   {
-    "value": "11214_FRICTION",
-    "name": "Friction Quartet"
+    "affil_id": 11286,
+    "name": "Michelle Chang",
+    "project": "SF Salon Music"
   },
   {
-    "value": "11215_GALAX",
-    "name": "Galax Quartet"
+    "affil_id": 11287,
+    "name": "Matt Ingals",
+    "project": "sfSound"
   },
   {
-    "value": "11216_GEORGE_BROOKS",
-    "name": "George Brooks"
+    "affil_id": 11290,
+    "name": "Janis Lieberman",
+    "project": "Sierra Ensemble"
   },
   {
-    "value": "11217_GESTALTISH",
-    "name": "GESTALTISH"
+    "affil_id": 11570,
+    "name": "Edward Simon",
+    "project": "Simon Music Productions Inc"
   },
   {
-    "value": "11218_GOJOGO",
-    "name": "Gojojo"
+    "affil_id": 11568,
+    "name": "Jacob Lane",
+    "project": "Sleight Ensemble"
   },
   {
-    "value": "11219_GOLD_COAST_NEW",
-    "name": "Gold Coast Chamber Players"
+    "affil_id": 11292,
+    "name": "Brenda Schuman-Post",
+    "project": "Sonic Forest"
   },
   {
-    "value": "11221_GSI_STUDIOS",
-    "name": "GSI Studios"
+    "affil_id": 11294,
+    "name": "Alexandra Iranfar, Timothy Sherren",
+    "project": "SopraDuo"
   },
   {
-    "value": "11222_GUERRILLA",
-    "name": "Guerrilla Composers Guild"
+    "affil_id": 11295,
+    "name": "Kyle Bruckmann",
+    "project": "Splinter Reeds"
   },
   {
-    "value": "11223_HOUSE",
-    "name": "H.o.U.S.E."
+    "affil_id": 11298,
+    "name": "Kris Desby",
+    "project": "Strobe"
   },
   {
-    "value": "11224_HELIA",
-    "name": "Helia Music Collective"
+    "affil_id": 11567,
+    "name": "Kana Luzmoor",
+    "project": "Summer at The Hidden Cafe"
   },
   {
-    "value": "11283_SANDY_CRESSMAN",
-    "name": "Homenagem Brasileira"
+    "affil_id": 11301,
+    "name": "Joseph Maile, Pei-Ling Lin",
+    "project": "Telegraph Quartet"
   },
   {
-    "value": "11225_HAUSMANN",
-    "name": "Housemann Quartet"
+    "affil_id": 11304,
+    "name": "Letitia Berlin",
+    "project": "Tibia Recorder Duo"
   },
   {
-    "value": "11226_IAN_DOGOLE",
-    "name": "Ian Dogole & Music Beyond Borders"
+    "affil_id": 11305,
+    "name": "Tiffany Austin",
+    "project": "Tiffany Austin - Con Alma Music Scholarship"
   },
   {
-    "value": "11227_IGNITION",
-    "name": "Iginition Duo"
+    "affil_id": 11306,
+    "name": "Tin Yi Chelsea Tin Yi Wong",
+    "project": "Tin Yi Wong Piano at the Palace"
   },
   {
-    "value": "11228_ILA_CANTOR",
-    "name": "Ila Cantor"
+    "affil_id": 11309,
+    "name": "Ian Scarfe",
+    "project": "Trinity Alps Chamber Music"
   },
   {
-    "value": "11247_MARIAH_PARKER",
-    "name": "Indo Latin Jazz Ensemble"
+    "affil_id": 11311,
+    "name": "Patricia Shands",
+    "project": "Trois Bois"
   },
   {
-    "value": "11229_INSIGHT_CHAMBER",
-    "name": "Insight Chamber Music"
+    "affil_id": 11315,
+    "name": "Emily Onderdonk",
+    "project": "Vitamin Em"
   },
   {
-    "value": "IMSF",
-    "name": "InterMusic SF"
-  },
-  {
-    "value": "11230_JARED_REDMOND",
-    "name": "Jared Redmond"
-  },
-  {
-    "value": "11231_JOHN_CALLOWAY",
-    "name": "John Calloway and the Flute Odyssey"
-  },
-  {
-    "value": "11232_STENBERG",
-    "name": "Kate Stenberg Music Projects"
-  },
-  {
-    "value": "11233_STEPHAN_SHULMAN",
-    "name": "Kate Stephan & Adam Shulman"
-  },
-  {
-    "value": "11234_KENYA_MOSES_MUSIC",
-    "name": "Kenya Moses Music"
-  },
-  {
-    "value": "11220_KOMBOS_COLLECTIVE",
-    "name": "Kombos Collective"
-  },
-  {
-    "value": "11235_KURT_ERICKSON",
-    "name": "Kurt Erickson"
-  },
-  {
-    "value": "11236_KYLE_BRUCKMANN",
-    "name": "Kyle Bruckmann"
-  },
-  {
-    "value": "11237_LA_SALA_CHAMBER_PLAYERS",
-    "name": "La Sala Chamber Players"
-  },
-  {
-    "value": "11238_LAUREL",
-    "name": "Laurel Ensemble"
-  },
-  {
-    "value": "11239_LEE_TRIO_NEW",
-    "name": "Lee Trio"
-  },
-  {
-    "value": "11240_LIAISON",
-    "name": "Liaison Ensemble"
-  },
-  {
-    "value": "11241_LIEDER_ALIVE",
-    "name": "Lieder Alive!"
-  },
-  {
-    "value": "11242_LISA_MEZZ",
-    "name": "Lisa Mezzacappa"
-  },
-  {
-    "value": "11244_LOCAPHONIC",
-    "name": "Locaphonic"
-  },
-  {
-    "value": "11248_MARTHA_MONICA_NEW",
-    "name": "martha & monica"
-  },
-  {
-    "value": "11425_MATT_ROBIDOUX",
-    "name": "Matt Robidoux"
-  },
-  {
-    "value": "11596_MAX_VAN_PRAAG",
-    "name": "Max Van Praag"
-  },
-  {
-    "value": "11250_MEERENAI_SHIM",
-    "name": "Meerenai Shim"
-  },
-  {
-    "value": "11251_MAACADEMY",
-    "name": "Menlo-Atherton Academy of Contemporary Music"
-  },
-  {
-    "value": "11252_MINSKY",
-    "name": "Minsky Duo"
-  },
-  {
-    "value": "11253_MUSA_NEW",
-    "name": "MUSA"
-  },
-  {
-    "value": "11255_MUSICAL_ART",
-    "name": "Musical Art Quintet"
-  },
-  {
-    "value": "11256_NANCY_ZHOU",
-    "name": "Nancy Zhou"
-  },
-  {
-    "value": "11258_NEW_ARTS_COLLAB",
-    "name": "New Arts Collaboration"
-  },
-  {
-    "value": "11259_NEW_KEYS",
-    "name": "New Keys"
-  },
-  {
-    "value": "11260_NEW_SPECTRUM",
-    "name": "New Spectrum Ensemble"
-  },
-  {
-    "value": "11261_NILS_B",
-    "name": "Nils Bultmann"
-  },
-  {
-    "value": "11262_NOMAD_SESSION",
-    "name": "Nomad Session"
-  },
-  {
-    "value": "11264_N_CAL_VIOLA",
-    "name": "Northern California Viola"
-  },
-  {
-    "value": "11265_OBED_CALVAIRE",
-    "name": "Obed Calvaire"
-  },
-  {
-    "value": "11266_ONE_WORLD",
-    "name": "One World Music"
-  },
-  {
-    "value": "11268_PAMELA_FREUNDSTRIPLEN",
-    "name": "Pamela Freund-Striplen"
-  },
-  {
-    "value": "11269_PATRICK_G",
-    "name": "Patrick Galvin"
-  },
-  {
-    "value": "11270_PAUL_HANSON",
-    "name": "Paul Hanson, Manzanita"
-  },
-  {
-    "value": "11271_PAUL_SCHRAGE",
-    "name": "Paul Schrage"
-  },
-  {
-    "value": "11572_PEDRO_PASTRANA",
-    "name": "Pedro Jos√© Pastrana"
-  },
-  {
-    "value": "11272_PERSEPHONE",
-    "name": "Persephone Chamber Ensemble"
-  },
-  {
-    "value": "11306_WONG_PIANO_PALACE",
-    "name": "Piano at the Palace"
-  },
-  {
-    "value": "11273_PR_JAZZ",
-    "name": "Point Richmond Jazz"
-  },
-  {
-    "value": "11274_PRO_MUSICA_ENSEMBLE",
-    "name": "Pro Musica Ensemble"
-  },
-  {
-    "value": "11275_QUARTET_SF_NEW",
-    "name": "Quartet San Francisco"
-  },
-  {
-    "value": "11276_QUINTETO",
-    "name": "Quinteto Latino"
-  },
-  {
-    "value": "11350_RAFFI_GARABEDIAN",
-    "name": "Raffi Garabedian"
-  },
-  {
-    "value": "11433_RAMON_AND_JESSICA",
-    "name": "Ramon & Jessica"
-  },
-  {
-    "value": "11277_RVSQ_NEW",
-    "name": "Real Vocal String Quartet"
-  },
-  {
-    "value": "11278_RENT_ROMUS",
-    "name": "Rent Romus"
-  },
-  {
-    "value": "11279_ROHAN_D_K",
-    "name": "Rohan Krishnamurthy"
-  },
-  {
-    "value": "08563_ROSS_MCKEE",
-    "name": "Ross McKee Foundation"
-  },
-  {
-    "value": "11280_SALLE_PIANOS",
-    "name": "Salle Pianos"
-  },
-  {
-    "value": "11281_SALON_CLASSIQUE",
-    "name": "Salon Classique"
-  },
-  {
-    "value": "11282_SAM_REIDER",
-    "name": "Sam Reider"
-  },
-  {
-    "value": "11427_SF_GUITAR_QUAR",
-    "name": "SF Guitar Quartet"
-  },
-  {
-    "value": "11284_SF_NEW_MUSIC",
-    "name": "SF New Music"
-  },
-  {
-    "value": "11285_OFFSIDE",
-    "name": "SF Offside Festival"
-  },
-  {
-    "value": "11286_SF_SALON_MUSIC",
-    "name": "SF Salon Music"
-  },
-  {
-    "value": "11287_SF_SOUND_NEW",
-    "name": "sfSound"
-  },
-  {
-    "value": "11288_SHELDON_B",
-    "name": "Sheldon Brown Group"
-  },
-  {
-    "value": "11289_SHELI_NAN_NEW",
-    "name": "Sheli Nan"
-  },
-  {
-    "value": "11290_SIERRA_NEW",
-    "name": "Sierra Ensemble"
-  },
-  {
-    "value": "11291_SIERRA_QUARTET",
-    "name": "Sierra Quartet"
-  },
-  {
-    "value": "11570_EDWARD_SIMON",
-    "name": "Simon Music Productions Inc"
-  },
-  {
-    "value": "11568_SLEIGHT_ENSEMBLE",
-    "name": "Sleight Ensemble"
-  },
-  {
-    "value": "11292_SONIC_FOREST",
-    "name": "Sonic Forest"
-  },
-  {
-    "value": "11293_SONIC_HARVEST",
-    "name": "Sonic Harvest"
-  },
-  {
-    "value": "11294_SOPRA_DUO",
-    "name": "SopraDuo"
-  },
-  {
-    "value": "11295_SPLINTER",
-    "name": "Splinter Reeds"
-  },
-  {
-    "value": "11296_SQWONK",
-    "name": "Sqwonk"
-  },
-  {
-    "value": "11297_STRING_ASSEMBLY",
-    "name": "String Assembly"
-  },
-  {
-    "value": "11298_STROBE",
-    "name": "Strobe"
-  },
-  {
-    "value": "11567_SUMMER_HIDDEN_CAFE",
-    "name": "Summer at The Hidden Cafe"
-  },
-  {
-    "value": "11299_SUNSET",
-    "name": "Sunset Duo"
-  },
-  {
-    "value": "11300_TAHOE_MUSIC_ALIVE",
-    "name": "Tahoe Music Alive"
-  },
-  {
-    "value": "11301_TELEGRAPH",
-    "name": "Telegraph Quartet"
-  },
-  {
-    "value": "11302_TERRENCE_B",
-    "name": "Terrence Brewer"
-  },
-  {
-    "value": "11303_THALEA",
-    "name": "Thalea String Quartet"
-  },
-  {
-    "value": "11176_BOW_AND_BRUSH",
-    "name": "The Bow and the Brush"
-  },
-  {
-    "value": "11194_DEEPTONES",
-    "name": "The Deep Tones"
-  },
-  {
-    "value": "11212_FORTE_HOUSE",
-    "name": "The Forte House"
-  },
-  {
-    "value": "11243_LIVING_EARTH",
-    "name": "The Living Earth Show"
-  },
-  {
-    "value": "11304_TIBIA",
-    "name": "Tibia Recorder Duo"
-  },
-  {
-    "value": "11307_TOPAZ_NEW",
-    "name": "TOPAZ"
-  },
-  {
-    "value": "11308_TOWN_QUARTET",
-    "name": "Town Quartet"
-  },
-  {
-    "value": "11309_TRINITY_ALPS_NEW",
-    "name": "Trinity Alps Chamber Music"
-  },
-  {
-    "value": "11310_TRIO_180",
-    "name": "Trio 180"
-  },
-  {
-    "value": "11311_TROIS_BOIS",
-    "name": "Trois Bois"
-  },
-  {
-    "value": "11312_UWXTET",
-    "name": "Ultra World X-tet"
-  },
-  {
-    "value": "FSP_UNKNOWN",
-    "name": "Unknown"
-  },
-  {
-    "value": "11313_VALLY_MOON",
-    "name": "Valley of the Moon Festival"
-  },
-  {
-    "value": "11314_VINACCESI",
-    "name": "Vinaccesi Ensemble"
-  },
-  {
-    "value": "11315_VITAMIN_EM",
-    "name": "Vitamin Em"
-  },
-  {
-    "value": "11316_VOCALLECTIVE",
-    "name": "Vocallective"
-  },
-  {
-    "value": "11317_WILD_RUMPUS",
-    "name": "Wild Rumpus / Ninth Planet"
-  },
-  {
-    "value": "11318_WOODWIND_NATR",
-    "name": "Woodwind Nature"
-  },
-  {
-    "value": "11319_YCM_NEW",
-    "name": "Young Chamber Musicians"
-  },
-  {
-    "value": "11320_ZOFO",
-    "name": "ZOFO"
+    "affil_id": 11320,
+    "name": "Eva Maria Zimmermann",
+    "project": "ZOFO"
   }
 ]

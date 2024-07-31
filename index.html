@@ -11,9 +11,9 @@
     <div class="header">
         <h1>InterMusic SF File Renaming Tool</h1>
     </div>
-    <div class="header"><h3>Greetings, fair file namer, may this page find you well and productive.</h3></div>
+    <!-- <div class="header"><h3>Greetings, fair file namer, may this page find you well and productive.</h3></div> -->
     <div id="instructions">
-        <a href="/readme.md" style="color: #ebf4f5">READ ME</a>
+        <a href="/readme.md" style="color: #ebf4f5"></a>
     </div>
     <div id="main" class="body_div">
         <input type="file" id="fileInput" multiple class="file-input">
@@ -34,7 +34,9 @@
         <input type="text" id="depNum" placeholder="Deposit Number" class="styled-input">
         <input type="text" id="depDate" placeholder="Deposit Date" class="styled-input">
     </div>
-
+    <!-- Common Affiliate Selection Area -->
+    
+    
     <!-- Check Scans -->
     <div class="body_div">
         <h3 class="section-label">Check Scans</h3>
@@ -45,17 +47,43 @@
         <input type="text" id="chNum" placeholder="Check Number" class="styled-input">
         <input type="text" id="donor" placeholder="Donor" class="styled-input">
         <input type="text" id="amount" placeholder="Amount" class="styled-input">
-        <select name="affiliate-select" id="affiliateSelect" class="styled-input">
-            <option value="">Select an Affiliate</option>
+        
+    </div>
+    
+    
+    <!-- Renewal Forms -->
+    <div class="body_div">
+        <h3 class="section-label">FSP Annual Renewal Renaming</h3>
+        <input type="checkbox" id="renewal"  class="checkbox" >
+        <label for="renewal">Rename Jotform Renewal Form</label>        
+        <input type="checkbox" id="fee"  class="checkbox">
+        <label for="fee">Rename Jotform Annual Fee Form</label>        
+        <input type="checkbox" id="photo"  class="checkbox" >
+        <label for="photo">Rename FSP Photo</label>    
+        <input type="text" id="photNum" placeholder="Photo Number" class="styled-input">    
+
+    </div>
+    
+    <div class="body_div">
+        <h3 class="section-label">Affiliate Selection Realm</h3>
+        <!-- Select for Affiliate ID -->
+        <select id="affiliateIdSelect" class="styled-input">
+            <option value="">Select ID by Project Name</option>
+        </select>
+    
+        <!-- Select for Affiliate Project Name -->
+        <select id="affiliateProjectSelect" class="styled-input">
+            <option value="">Select Affiliate by Project Name</option>
         </select>
     </div>
 
     <!-- Rename general -->
     <div class="body_div">
+        <h3 class="section-label">Removing Underscores</h3>
         <label for="keepOriginalName" class="row-header">Keep original name:</label>
-        <input type="checkbox" id="keepOriginalName">
+        <input type="checkbox" id="keepOriginalName" class="checkbox">
         <label for="replaceUnderscores">Replace underscores with spaces:</label>
-        <input type="checkbox" id="replaceUnderscores">
+        <input type="checkbox" id="replaceUnderscores"  class="checkbox">
     </div>
     <div class="button-container">
         <button class="styled-button" onclick="renameFiles()">Rename Files</button>

@@ -72,7 +72,11 @@
 
 .section-label {
     margin-right: 15px;
-    
+}
+
+.checkbox {
+    margin-right: 15px;
+    /* border: solid #669bbc .5px  */
 }
 
 .styled-input {

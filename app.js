@@ -30,35 +30,54 @@ function handleFileSelect(evt) {
         const json = XLSX.utils.sheet_to_json(worksheet);
 
         const affiliates = json.map(row => ({
-            value: row.code,  // Ensure 'code' matches your Excel column header
-            name: row.description  // Ensure 'description' matches your Excel column header
+            affil_id: row.id,  // Make sure 'code' matches your Excel column name
+            name: row.name,
+            project: row.project
         }));
 
-        populateAffiliates(affiliates);
+        // populateAffiliates(affiliates);
     };
 
     reader.readAsArrayBuffer(file);
 }
 function populateAffiliates(affiliates) {
-    const affiliateSelect = document.getElementById('affiliateSelect');
-    if (affiliateSelect.options.length <= 1) { // Check if it has only the default option
-        // Clear existing options only if necessary
-        affiliateSelect.innerHTML = '';
+    const affiliateIdSelect = document.getElementById('affiliateIdSelect');
+    const affiliateProjectSelect = document.getElementById('affiliateProjectSelect');
+    // if (affiliateIdSelect.options.length > 1 && affiliateProjectSelect.options.length > 1) {
+    //     // Assuming default options are already there and data is populated
+    //     return; // Exit if already populated
+    // }
 
-        // Add a default option
-        const defaultOption = document.createElement('option');
-        defaultOption.value = '';
-        defaultOption.textContent = 'Select an Affiliate';
-        affiliateSelect.appendChild(defaultOption);
+    // Reset the content of the select elements
+    affiliateIdSelect.innerHTML = '';
+    affiliateProjectSelect.innerHTML = '';
 
-        affiliates.forEach(affiliate => {
-            const option = document.createElement('option');
-            option.value = affiliate.value;
-            option.textContent = affiliate.name;
-            affiliateSelect.appendChild(option);
-        });
-    }
+    // Add default options
+    const defaultIdOption = document.createElement('option');
+    defaultIdOption.value = '';
+    defaultIdOption.textContent = 'Affiliate ID by Project Name';
+    affiliateIdSelect.appendChild(defaultIdOption);
+
+    const defaultProjectOption = document.createElement('option');
+    defaultProjectOption.value = '';
+    defaultProjectOption.textContent = 'Project Name';
+    affiliateProjectSelect.appendChild(defaultProjectOption);
+
+    // Populate the select elements
+    affiliates.forEach(affiliate => {
+        const idOption = document.createElement('option');
+        idOption.value = affiliate.affil_id;
+        // console.log(affiliate.project)
+        idOption.textContent = affiliate.project;
+        affiliateIdSelect.appendChild(idOption);
+
+        const projectOption = document.createElement('option');
+        projectOption.value = affiliate.project; // You can decide if you want the value to be ID or something else
+        projectOption.textContent = affiliate.project; // Assuming 'project' holds the last name
+        affiliateProjectSelect.appendChild(projectOption);
+    });
 }
+
 function renameFiles() {
     const files = document.getElementById('fileInput').files;
     const namingConvention = document.getElementById('namingConvention').value;
@@ -68,13 +87,21 @@ function renameFiles() {
     const transactionRepType = document.getElementById('platformSelect').value;
     const depNum = document.getElementById('depNum').value;
     const checks = document.getElementById('checks').checked;
+    const renewal = document.getElementById('renewal').checked;
+    const fee = document.getElementById('fee').checked;
+    const photo = document.getElementById('photo').checked;
     const checkDepNum = document.getElementById('checkDepNum').value;
     const checkDate = document.getElementById('checkDate').value;
     const depDate = document.getElementById('depDate').value;
     const chNum = document.getElementById('chNum').value;
     const donor = document.getElementById('donor').value;
     const amount = document.getElementById('amount').value;
-    const affiliateSelect = document.getElementById('affiliateSelect').value;
+    const photNum = document.getElementById('photNum').value;
+    // const cy = document.getElementById('cy').value;
+    const affiliateIdSelect = document.getElementById('affiliateIdSelect').value;
+    const affiliateProjectSelect = document.getElementById('affiliateProjectSelect').value;
+    console.log("Affiliate ID:", affiliateIdSelect);
+console.log("Affiliate Project:", affiliateProjectSelect);
 
     downloadLinks.innerHTML = ''; // Clear previous links
 
@@ -98,8 +125,19 @@ function renameFiles() {
             newFileName = `${depDate} ${transactionRepType} Transaction Reports DEP_NUM ${depNum}.${extension}`;
         }
 
+        // const affiliateValue = affiliateProjectSelect.value; // or affiliateIdSelect.value based on your need
+
         if (checks) {
-            newFileName = `${checkDepNum} ${checkDate} ${chNum} ${donor} ${amount} ${affiliateSelect}.${extension}`;
+            newFileName = `${checkDepNum} ${checkDate} ${chNum} ${donor} ${amount} ${affiliateProjectSelect}.${extension}`;
+        }
+        if (renewal) {
+            newFileName = `${affiliateIdSelect} ${affiliateProjectSelect} Annual Renewal Form CY24.${extension}`;
+        }
+        if (fee) {
+            newFileName = `${affiliateIdSelect} ${affiliateProjectSelect} Annual Fee Form CY24.${extension}`;
+        }
+        if (photo) {
+            newFileName = `${affiliateIdSelect} ${affiliateProjectSelect} phtoto ${photNum} CY24.${extension}`;
         }
 
         // Create Blob URL for the new file
