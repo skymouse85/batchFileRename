@@ -79,6 +79,10 @@
     /* border: solid #669bbc .5px  */
 }
 
+.checkLabel {
+    margin-right: 10px;
+}
+
 .styled-input {
     padding: 10px; 
     width: 150px; 

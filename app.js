@@ -97,6 +97,7 @@ function renameFiles() {
     const donor = document.getElementById('donor').value;
     const amount = document.getElementById('amount').value;
     const photNum = document.getElementById('photNum').value;
+    const agreement = document.getElementById('agreement').value;
     // const cy = document.getElementById('cy').value;
     const affiliateIdSelect = document.getElementById('affiliateIdSelect').value;
     const affiliateProjectSelect = document.getElementById('affiliateProjectSelect').value;
@@ -129,6 +130,9 @@ console.log("Affiliate Project:", affiliateProjectSelect);
 
         if (checks) {
             newFileName = `${checkDepNum} ${checkDate} ${chNum} ${donor} ${amount} ${affiliateProjectSelect}.${extension}`;
+        }
+        if (agreement) {
+            newFileName = `${affiliateIdSelect} ${affiliateProjectSelect} FSP Agreement CY24.${extension}`;
         }
         if (renewal) {
             newFileName = `${affiliateIdSelect} ${affiliateProjectSelect} Annual Renewal Form CY24.${extension}`;
