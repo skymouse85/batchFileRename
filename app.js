@@ -90,6 +90,7 @@ function renameFiles() {
     const renewal = document.getElementById('renewal').checked;
     const fee = document.getElementById('fee').checked;
     const photo = document.getElementById('photo').checked;
+    const agreement = document.getElementById('agreement').checked;
     const checkDepNum = document.getElementById('checkDepNum').value;
     const checkDate = document.getElementById('checkDate').value;
     const depDate = document.getElementById('depDate').value;
@@ -97,12 +98,11 @@ function renameFiles() {
     const donor = document.getElementById('donor').value;
     const amount = document.getElementById('amount').value;
     const photNum = document.getElementById('photNum').value;
-    const agreement = document.getElementById('agreement').value;
     // const cy = document.getElementById('cy').value;
     const affiliateIdSelect = document.getElementById('affiliateIdSelect').value;
     const affiliateProjectSelect = document.getElementById('affiliateProjectSelect').value;
     console.log("Affiliate ID:", affiliateIdSelect);
-console.log("Affiliate Project:", affiliateProjectSelect);
+    console.log("Affiliate Project:", affiliateProjectSelect);
 
     downloadLinks.innerHTML = ''; // Clear previous links
 
