@@ -3,7 +3,7 @@ const xlsx = require('xlsx');
 const fs = require('fs');
 const path = require('path');
 
-const workbook = xlsx.readFile(path.resolve(__dirname, 'data/240731_affiliate_export.xlsx'));
+const workbook = xlsx.readFile(path.resolve(__dirname, 'data/240802_affiliate_export.xlsx'));
 const sheetName = workbook.SheetNames[0];
 const worksheet = workbook.Sheets[sheetName];
 const data = xlsx.utils.sheet_to_json(worksheet);
