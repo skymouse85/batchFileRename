@@ -129,7 +129,7 @@ function renameFiles() {
         // const affiliateValue = affiliateProjectSelect.value; // or affiliateIdSelect.value based on your need
 
         if (checks) {
-            newFileName = `${checkDepNum} ${checkDate} ${chNum} ${donor} ${amount} ${affiliateProjectSelect}.${extension}`;
+            newFileName = `${checkDepNum} ${checkDate} ${chNum} - ${donor} - ${amount} - ${affiliateProjectSelect}.${extension}`;
         }
         if (agreement) {
             newFileName = `${affiliateIdSelect} ${affiliateProjectSelect} FSP Agreement CY24.${extension}`;
