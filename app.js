@@ -60,6 +60,9 @@ function populateAffiliates(affiliates) {
 }
 
 
+
+
+
 function renameFiles() {
     const files = document.getElementById('fileInput').files;
     const affiliateValue = document.getElementById('affiliateSelect').value;
@@ -142,6 +145,45 @@ function renameFiles() {
         downloadLinks.appendChild(listItem);
     });
 }
+
+
+function renameSFMDFiles() {
+    const files = document.getElementById('fileInput').files;
+    const downloadLinks = document.getElementById('downloadLinks');
+    downloadLinks.innerHTML = ''; // Clear previous links
+
+    Array.from(files).forEach((file) => {
+        const originalName = file.name;
+        let newFileName = renameSFMDFile(originalName);  // Use the specialized renaming function
+
+        // Create Blob URL for the new file
+        const blob = new Blob([file], { type: file.type });
+        const url = URL.createObjectURL(blob);
+
+        // Create and append the download link
+        const listItem = document.createElement('li');
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = newFileName;
+        link.textContent = `Download ${newFileName}`;
+        listItem.appendChild(link);
+        downloadLinks.appendChild(listItem);
+    });
+}
+
+function renameSFMDFile(originalName) {
+    // Logic to process filenames starting with "SFMD"
+    const pattern = /^SFMD_24_\d{2}/;  // Adjust regex as necessary
+    if (pattern.test(originalName)) {
+        const index = originalName.indexOf('_', 10);  // Find the position after "SFMD_24_XX"
+        const preservedPart = originalName.substring(0, index);
+        const rest = originalName.substring(index).replace(/_/g, ' ');
+        return preservedPart + rest;
+    }
+    return originalName;  // Return the original name if no match
+}
+
+
 
 function renameAndDownloadFiles() {
     const files = document.getElementById('fileInput').files;

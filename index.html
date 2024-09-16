@@ -99,10 +99,13 @@
         <input type="checkbox" id="keepOriginalName" class="checkbox">
         <label for="replaceUnderscores">Replace underscores with spaces:</label>
         <input type="checkbox" id="replaceUnderscores"  class="checkbox">
+        <label for="renameSFMD">Rename SFMD Files:</label>
+        <input type="checkbox" id="renameSFMD" class="checkbox">
     </div>
     <div class="button-container">
         <button class="styled-button" onclick="renameFiles()">Rename Files</button>
         <button class="styled-button" onclick="renameAndDownloadFiles()">Download All as ZIP</button>
+        <button class="styled-button" onclick="renameSFMDFiles()">Rename SFMD Files</button>
     </div>
     <ul id="downloadLinks"></ul>
 
