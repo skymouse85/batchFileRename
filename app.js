@@ -85,6 +85,10 @@ function renameFiles() {
     const donor = document.getElementById('donor').value;
     const amount = document.getElementById('amount').value;
     const photNum = document.getElementById('photNum').value;
+    const recDate = document.getElementById('recDate').value;
+    const recVendor = document.getElementById('recVendor').value;
+    const recAmount = document.getElementById('recAmount').value;
+    const recDetails = document.getElementById('recDetails').value;
     // const cy = document.getElementById('cy').value;
     // const affiliateIdSelect = document.getElementById('affiliateIdSelect').value;
     // const affiliateProjectSelect = document.getElementById('affiliateProjectSelect').value;
@@ -111,6 +115,10 @@ function renameFiles() {
         // strictly deal with transaction reports
         if (transactionRepType) {
             newFileName = `${depDate} ${transactionRepType} Transaction Reports DEP_NUM ${depNum}.${extension}`;
+        }
+        // Recepits Rename
+        if (recDate) {
+            newFileName = `${recDate} ${recVendor} ${recAmount} ${recDetails}`
         }
 
         // const affiliateValue = affiliateProjectSelect.value; // or affiliateIdSelect.value based on your need
