@@ -118,7 +118,7 @@ function renameFiles() {
         }
         // Recepits Rename
         if (recDate) {
-            newFileName = `${recDate} ${recVendor} ${recAmount} ${recDetails}`
+            newFileName = `${recDate} ${recVendor} ${recAmount} ${recDetails}.${extension}`;
         }
 
         // const affiliateValue = affiliateProjectSelect.value; // or affiliateIdSelect.value based on your need
