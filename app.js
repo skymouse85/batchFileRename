@@ -136,7 +136,7 @@ function renameFiles() {
             newFileName = `${affil_id} ${project} - Annual Fee Form CY24.${extension}`;
         }
         if (photo) {
-            newFileName = `${affil_id} ${project} - phtoto ${photNum} CY24.${extension}`;
+            newFileName = `${affil_id} ${project} - photo ${photNum} CY24.${extension}`;
         }
 
         // Create Blob URL for the new file
