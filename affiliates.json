@@ -192,7 +192,7 @@
   {
     "affil_id": 11176,
     "name": "Dan Flanagan",
-    "project": "The Bow and the Brush"
+    "project": "Bow and the Brush"
   },
   {
     "affil_id": 11177,
@@ -217,6 +217,11 @@
   {
     "affil_id": 11426,
     "project": "California Quartet"
+  },
+  {
+    "affil_id": 11733,
+    "name": "Camilo Landau",
+    "project": "Camilo y los Cruzers"
   },
   {
     "affil_id": 11571,
@@ -311,7 +316,7 @@
   {
     "affil_id": 11194,
     "name": "Marcus Phillips",
-    "project": "The Deep Tones"
+    "project": "Deep Tones"
   },
   {
     "affil_id": 11195,
@@ -357,6 +362,11 @@
     "affil_id": 11348,
     "name": "Robert Bead",
     "project": "ECHO Chamber Orchestra"
+  },
+  {
+    "affil_id": 11752,
+    "name": "Mia Chong",
+    "project": "EIGHT/MOVES"
   },
   {
     "affil_id": 11203,
@@ -425,7 +435,7 @@
   {
     "affil_id": 11212,
     "name": "JJ Hollingsworth",
-    "project": "The Forte House"
+    "project": "Forte House"
   },
   {
     "affil_id": 11452,
@@ -553,6 +563,11 @@
     "project": "Kenya Moses Music"
   },
   {
+    "affil_id": 11889,
+    "name": "Aakash Desai",
+    "project": "Keys To The City"
+  },
+  {
     "affil_id": 11220,
     "name": "Ellie Ganelin",
     "project": "Kombos Collective"
@@ -605,7 +620,7 @@
   {
     "affil_id": 11243,
     "name": "The Living Earth Show",
-    "project": "The Living Earth Show"
+    "project": "Living Earth Show"
   },
   {
     "affil_id": 11244,
@@ -651,6 +666,11 @@
     "affil_id": 11596,
     "name": "Max Van Praag",
     "project": "Max Van Praag"
+  },
+  {
+    "affil_id": 11888,
+    "name": "Maya Kherani",
+    "project": "Maya Kherani"
   },
   {
     "affil_id": 11250,
@@ -846,6 +866,11 @@
     "affil_id": 11279,
     "name": "Rohan Krishnamurthy",
     "project": "Rohan Krishnamurthy"
+  },
+  {
+    "affil_id": 8563,
+    "name": "Nicholas Pavkovic",
+    "project": "Ross McKee Foundation"
   },
   {
     "affil_id": 11280,
@@ -1095,10 +1120,5 @@
     "affil_id": 11320,
     "name": "Eva Maria Zimmermann",
     "project": "ZOFO"
-  },
-  {
-    "affil_id": 9480,
-    "name": "IMSF",
-    "project": "IMSF"
   }
 ]
