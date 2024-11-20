@@ -1,20 +1,5 @@
 [
   {
-    "affil_id": 11147,
-    "name": "Anna Maria Mendieta",
-    "project": "123Encore Entertainment Solutions"
-  },
-  {
-    "affil_id": 11148,
-    "name": "Aaron Bennett",
-    "project": "Aaron Bennett"
-  },
-  {
-    "affil_id": 11149,
-    "name": "Afiara Quartet",
-    "project": "Afiara Quartet"
-  },
-  {
     "affil_id": 11150,
     "name": "Jodi Gandolfi",
     "project": "African American Composer Initiative (AACI)"
@@ -40,39 +25,9 @@
     "project": "Alcyone Ensemble"
   },
   {
-    "affil_id": 11321,
-    "name": "Anne Suda",
-    "project": "Aleron Trio"
-  },
-  {
     "affil_id": 11155,
     "name": "Sandy Wilson",
     "project": "Alexander String Quartet"
-  },
-  {
-    "affil_id": 11156,
-    "name": "Alisa Rose",
-    "project": "Alisa Rose, Affiliate"
-  },
-  {
-    "affil_id": 11157,
-    "name": "Abigail Shipman",
-    "project": "Amaranth Quartet"
-  },
-  {
-    "affil_id": 11158,
-    "name": "Amelia Romano",
-    "project": "Amelia Romano Music Projects"
-  },
-  {
-    "affil_id": 11159,
-    "name": "Amy LaCour",
-    "project": "Amy LaCour"
-  },
-  {
-    "affil_id": 11160,
-    "name": "Amy Stephens",
-    "project": "Amy Stephens"
   },
   {
     "affil_id": 11161,
@@ -100,16 +55,6 @@
     "project": "ARc duET"
   },
   {
-    "affil_id": 11164,
-    "name": "William Barbini",
-    "project": "Ariel Ensemble"
-  },
-  {
-    "affil_id": 11322,
-    "name": "Elena Levina",
-    "project": "Art Song Projects"
-  },
-  {
     "affil_id": 11595,
     "name": "Annah Sidigu",
     "project": "Artists Resisting Exploitation"
@@ -120,49 +65,9 @@
     "project": "Astraeus String Quartet"
   },
   {
-    "affil_id": 11323,
-    "name": "Laura Gaynon",
-    "project": "BACH (Bay Area Concerts at Home)"
-  },
-  {
-    "affil_id": 11324,
-    "name": "Lisa Mezzacappa",
-    "project": "Bait and Switch"
-  },
-  {
-    "affil_id": 11166,
-    "name": "Aaron Requiro",
-    "project": "Baumer Quartet"
-  },
-  {
-    "affil_id": 11167,
-    "name": "Bay Area Music Consortium (BAMC)",
-    "project": "Bay Area Music Consortium (BAMC)"
-  },
-  {
-    "affil_id": 11168,
-    "name": "Mimi Lee",
-    "project": "Bella Piano Trio"
-  },
-  {
-    "affil_id": 11325,
-    "name": "BeMusic.al",
-    "project": "BeMusic.al"
-  },
-  {
-    "affil_id": 11169,
-    "name": "Ben Goldberg",
-    "project": "Ben Goldberg"
-  },
-  {
     "affil_id": 11170,
     "name": "Gail Hernandez Rosa",
     "project": "Beneath a Tree"
-  },
-  {
-    "affil_id": 11171,
-    "name": "Tanya Tomkins",
-    "project": "Benvenue House Music"
   },
   {
     "affil_id": 8631,
@@ -175,21 +80,6 @@
     "project": "Berkeley Festival of Choro"
   },
   {
-    "affil_id": 11173,
-    "name": "Jennifer Peringer",
-    "project": "Bernal Hill Players"
-  },
-  {
-    "affil_id": 11174,
-    "name": "Letitia Berlin",
-    "project": "Bertamo Trio"
-  },
-  {
-    "affil_id": 11175,
-    "name": "Kris Palmer",
-    "project": "Black Cedar"
-  },
-  {
     "affil_id": 11176,
     "name": "Dan Flanagan",
     "project": "Bow and the Brush"
@@ -198,25 +88,6 @@
     "affil_id": 11177,
     "name": "Ari Micich",
     "project": "Brass Over Bridges"
-  },
-  {
-    "affil_id": 11178,
-    "name": "Brian Andres",
-    "project": "Brian Andres Music"
-  },
-  {
-    "affil_id": 11326,
-    "name": "Bridge Chamber Virtuosi",
-    "project": "Bridge Chamber Virtuosi"
-  },
-  {
-    "affil_id": 11179,
-    "name": "Vicky Wang",
-    "project": "C'est Bon Chamber Music Academy"
-  },
-  {
-    "affil_id": 11426,
-    "project": "California Quartet"
   },
   {
     "affil_id": 11733,
@@ -229,46 +100,6 @@
     "project": "Carla Lucero (FSP)"
   },
   {
-    "affil_id": 11327,
-    "name": "Castalian String Quartet",
-    "project": "Castalian String Quartet"
-  },
-  {
-    "affil_id": 11180,
-    "name": "Andres Vera",
-    "project": "Cello Street Quartet"
-  },
-  {
-    "affil_id": 11345,
-    "name": "Susan Harvey",
-    "project": "Chamber Music at Rancho Flaubert"
-  },
-  {
-    "affil_id": 11181,
-    "name": "Natasha Makhijani",
-    "project": "Chamber Music San Francisco"
-  },
-  {
-    "affil_id": 11182,
-    "name": "ChamberBridge",
-    "project": "ChamberBridge"
-  },
-  {
-    "affil_id": 11183,
-    "name": "Chorda",
-    "project": "Chorda"
-  },
-  {
-    "affil_id": 11184,
-    "name": "Allegra Chapman",
-    "project": "Chordless"
-  },
-  {
-    "affil_id": 11185,
-    "name": "Tyler Heibeck",
-    "project": "Chromatic Community Music Center"
-  },
-  {
     "affil_id": 11186,
     "name": "Omid Assadi",
     "project": "Circadian String Quartet"
@@ -279,24 +110,9 @@
     "project": "Classical Revolution"
   },
   {
-    "affil_id": 11188,
-    "name": "Katrina Wreede",
-    "project": "Composing Together"
-  },
-  {
     "affil_id": 11189,
     "name": "Rachel Kim",
     "project": "Curium"
-  },
-  {
-    "affil_id": 11328,
-    "name": "Tom Stone",
-    "project": "Cypress String Quartet (Affiliate)"
-  },
-  {
-    "affil_id": 11190,
-    "name": "Darren Johnston",
-    "project": "Darren Johnston"
   },
   {
     "affil_id": 11191,
@@ -309,24 +125,9 @@
     "project": "David James's GPS"
   },
   {
-    "affil_id": 11193,
-    "name": "Davide Verotta",
-    "project": "Davide Verotta"
-  },
-  {
     "affil_id": 11194,
     "name": "Marcus Phillips",
     "project": "Deep Tones"
-  },
-  {
-    "affil_id": 11195,
-    "name": "To Whom It May Concern",
-    "project": "Del Sol Quartet"
-  },
-  {
-    "affil_id": 11196,
-    "name": "Michelle Kwon",
-    "project": "Delphi Trio"
   },
   {
     "affil_id": 11197,
@@ -339,26 +140,6 @@
     "project": "Diaspora Sessions"
   },
   {
-    "affil_id": 11199,
-    "name": "Doubletake",
-    "project": "Doubletake"
-  },
-  {
-    "affil_id": 11200,
-    "name": "Laura Scarlata, Sharon Lee Kim",
-    "project": "Duo Camaraderie"
-  },
-  {
-    "affil_id": 11201,
-    "name": "Duo Revirado",
-    "project": "Duo Revirado"
-  },
-  {
-    "affil_id": 11202,
-    "name": "Aishwarya Srinivas",
-    "project": "Earth Ambassadors Project"
-  },
-  {
     "affil_id": 11348,
     "name": "Robert Bead",
     "project": "ECHO Chamber Orchestra"
@@ -369,48 +150,9 @@
     "project": "EIGHT/MOVES"
   },
   {
-    "affil_id": 11203,
-    "name": "Chad Goodman",
-    "project": "Elevate Ensemble"
-  },
-  {
-    "affil_id": 11329,
-    "project": "Emergency String X-tet"
-  },
-  {
     "affil_id": 11124,
     "name": "Nanette McGuinness",
     "project": "Ensemble for These Times"
-  },
-  {
-    "affil_id": 11204,
-    "name": "To Whom It May Concern",
-    "project": "Ensemble San Francisco"
-  },
-  {
-    "affil_id": 11205,
-    "name": "Craig Reiss",
-    "project": "EOS Ensemble"
-  },
-  {
-    "affil_id": 11330,
-    "name": "Kerry Chrapliwy",
-    "project": "Eric Harland Presents"
-  },
-  {
-    "affil_id": 11206,
-    "name": "Erik Jekabson",
-    "project": "Erik Jekabson"
-  },
-  {
-    "affil_id": 11331,
-    "name": "Eusebius Duo",
-    "project": "Eusebius Duo"
-  },
-  {
-    "affil_id": 11207,
-    "name": "Benjamin Kreith",
-    "project": "Ezra Pound"
   },
   {
     "affil_id": 11208,
@@ -423,21 +165,6 @@
     "project": "Farallon Recorder Quartet"
   },
   {
-    "affil_id": 11210,
-    "name": "James Jaffe",
-    "project": "Festival Rolland"
-  },
-  {
-    "affil_id": 11211,
-    "name": "Vanessa Langer",
-    "project": "Firesong"
-  },
-  {
-    "affil_id": 11212,
-    "name": "JJ Hollingsworth",
-    "project": "Forte House"
-  },
-  {
     "affil_id": 11452,
     "name": "Frank Swart",
     "project": "Frank Swart"
@@ -448,49 +175,9 @@
     "project": "Frank Tusa"
   },
   {
-    "affil_id": 11214,
-    "name": "Doug Machiz",
-    "project": "Friction Quartet"
-  },
-  {
-    "affil_id": 11215,
-    "name": "Roy Whelden",
-    "project": "Galax Quartet"
-  },
-  {
     "affil_id": 11216,
     "name": "George Brooks",
     "project": "George Brooks"
-  },
-  {
-    "affil_id": 11217,
-    "name": "Rachel Condry",
-    "project": "GESTALTISH"
-  },
-  {
-    "affil_id": 11218,
-    "name": "Sarah Zaharako",
-    "project": "Gojojo"
-  },
-  {
-    "affil_id": 11219,
-    "name": "Gold Coast Chamber Players",
-    "project": "Gold Coast Chamber Players"
-  },
-  {
-    "affil_id": 9520,
-    "name": "Mark Nemoyten",
-    "project": "Golden Gate Park Band"
-  },
-  {
-    "affil_id": 11222,
-    "name": "Nick Benavides",
-    "project": "Guerrilla Composers Guild"
-  },
-  {
-    "affil_id": 11223,
-    "name": "Sara Usher",
-    "project": "H.o.U.S.E."
   },
   {
     "affil_id": 11224,
@@ -498,29 +185,9 @@
     "project": "Helia Music Collective"
   },
   {
-    "affil_id": 11225,
-    "name": "Housemann Quartet",
-    "project": "Housemann Quartet"
-  },
-  {
     "affil_id": 11226,
     "name": "Ian Dogole",
     "project": "Ian Dogole & Music Beyond Borders"
-  },
-  {
-    "affil_id": 11227,
-    "name": "David Gonzales",
-    "project": "Iginition Duo"
-  },
-  {
-    "affil_id": 11228,
-    "name": "Ila Cantor",
-    "project": "Ila Cantor"
-  },
-  {
-    "affil_id": 11229,
-    "name": "Leah Froyd",
-    "project": "Insight Chamber Music"
   },
   {
     "affil_id": 11692,
@@ -528,44 +195,14 @@
     "project": "Irene Sazer"
   },
   {
-    "affil_id": 11230,
-    "name": "Jared Redmond",
-    "project": "Jared Redmond"
-  },
-  {
-    "affil_id": 11231,
-    "name": "John Calloway",
-    "project": "John Calloway and the Flute Odyssey"
-  },
-  {
-    "affil_id": 11332,
-    "name": "John Zientek",
-    "project": "John Zientek"
-  },
-  {
     "affil_id": 11232,
     "name": "Kate Stenberg",
     "project": "Kate Stenberg Music Projects"
   },
   {
-    "affil_id": 11233,
-    "name": "Kate Stephan & Adam Shulman",
-    "project": "Kate Stephan & Adam Shulman"
-  },
-  {
-    "affil_id": 11333,
-    "name": "Keisa",
-    "project": "Keisa"
-  },
-  {
-    "affil_id": 11234,
-    "name": "Kenya Moses",
-    "project": "Kenya Moses Music"
-  },
-  {
     "affil_id": 11889,
     "name": "Aakash Desai",
-    "project": "Keys To The City"
+    "project": "Keys to the City"
   },
   {
     "affil_id": 11220,
@@ -578,19 +215,9 @@
     "project": "Kurt Erickson"
   },
   {
-    "affil_id": 11236,
-    "name": "Kyle Bruckmann",
-    "project": "Kyle Bruckmann's Wrack"
-  },
-  {
     "affil_id": 11237,
     "name": "Ruth  Stuart",
     "project": "La Sala Chamber Players"
-  },
-  {
-    "affil_id": 11238,
-    "name": "Laurel Ensemble",
-    "project": "Laurel Ensemble"
   },
   {
     "affil_id": 11239,
@@ -598,69 +225,9 @@
     "project": "Lee Trio"
   },
   {
-    "affil_id": 11334,
-    "name": "Lenny Carlson",
-    "project": "Lenny Carlson"
-  },
-  {
-    "affil_id": 11240,
-    "name": "Susie Fong",
-    "project": "Liaison Ensemble"
-  },
-  {
-    "affil_id": 11241,
-    "name": "Maxine Bernstein",
-    "project": "Lieder Alive!"
-  },
-  {
-    "affil_id": 11242,
-    "name": "Lisa Mezzacappa",
-    "project": "Lisa Mezzacappa"
-  },
-  {
-    "affil_id": 11243,
-    "name": "The Living Earth Show",
-    "project": "Living Earth Show"
-  },
-  {
-    "affil_id": 11244,
-    "name": "Hannah Addario-Berry",
-    "project": "Locaphonic"
-  },
-  {
-    "affil_id": 11245,
-    "name": "Luna Nova",
-    "project": "Luna Nova"
-  },
-  {
-    "affil_id": 11246,
-    "name": "Luna Trio",
-    "project": "Luna Trio"
-  },
-  {
     "affil_id": 11247,
     "name": "Mariah Parker",
     "project": "Mariah Parker‚Äö√Ñ√¥s Indo Latin Jazz Ensemble"
-  },
-  {
-    "affil_id": 11335,
-    "name": "Marin Chamber Music",
-    "project": "Marin Chamber Music"
-  },
-  {
-    "affil_id": 11248,
-    "name": "Hadley McCarrol, Monica Scott",
-    "project": "Martha & monica"
-  },
-  {
-    "affil_id": 11249,
-    "name": "Matt Renzi",
-    "project": "Matt Renzi"
-  },
-  {
-    "affil_id": 11425,
-    "name": "Matt Robidoux",
-    "project": "Matt Robidoux"
   },
   {
     "affil_id": 11596,
@@ -678,89 +245,14 @@
     "project": "Meerenai Shim"
   },
   {
-    "affil_id": 11251,
-    "name": "Alex Sigman",
-    "project": "Menlo-Atherton Academy of Contemporary Music (MAACM)"
-  },
-  {
-    "affil_id": 11252,
-    "name": "Nato Bartley, Monica Chew",
-    "project": "Minsky Duo"
-  },
-  {
-    "affil_id": 11253,
-    "name": "Derek Tam",
-    "project": "MUSA"
-  },
-  {
-    "affil_id": 11336,
-    "name": "Music at Home",
-    "project": "Music at Home"
-  },
-  {
-    "affil_id": 11254,
-    "name": "Mike Tekulsky",
-    "project": "Music Meyer"
-  },
-  {
-    "affil_id": 11255,
-    "name": "Sascha Jacobsen",
-    "project": "Musical Art Quintet"
-  },
-  {
     "affil_id": 11256,
     "name": "Nancy Zhou",
     "project": "Nancy Zhou, Affiliate"
   },
   {
-    "affil_id": 11257,
-    "name": "Navitas",
-    "project": "Navitas"
-  },
-  {
-    "affil_id": 11258,
-    "name": "Tingyuan Luo",
-    "project": "New Arts Collaboration"
-  },
-  {
-    "affil_id": 11259,
-    "name": "New Keys",
-    "project": "New Keys"
-  },
-  {
-    "affil_id": 11260,
-    "name": "Sandra Gu",
-    "project": "New Spectrum Ensemble"
-  },
-  {
-    "affil_id": 11337,
-    "name": "Nightshade",
-    "project": "Nightshade"
-  },
-  {
-    "affil_id": 11261,
-    "name": "Nils Bultmann",
-    "project": "Nils Bultmann"
-  },
-  {
     "affil_id": 11262,
     "name": "Jon Szin",
     "project": "Nomad Session"
-  },
-  {
-    "affil_id": 11338,
-    "name": "Nonsemble 6",
-    "project": "Nonsemble 6"
-  },
-  {
-    "affil_id": 11263,
-    "name": "Nora Stanley",
-    "project": "Nora Stanley"
-  },
-  {
-    "affil_id": 11264,
-    "name": "Jason Pyszkowski",
-    "project": "Northern California Viola"
   },
   {
     "affil_id": 11265,
@@ -773,11 +265,6 @@
     "project": "One World Music / Gary Muszynski / Roots & Wings"
   },
   {
-    "affil_id": 11267,
-    "name": "Elizabeth Nebot",
-    "project": "Osteria Divino - Jazz at Divino"
-  },
-  {
     "affil_id": 11268,
     "name": "Pamela Freund-Striplen",
     "project": "Pamela Freund-Striplen"
@@ -786,16 +273,6 @@
     "affil_id": 11269,
     "name": "Patrick Galvin",
     "project": "Patrick Galvin (FSP)"
-  },
-  {
-    "affil_id": 11270,
-    "name": "Paul Hanson",
-    "project": "Paul Hanson (FSP)"
-  },
-  {
-    "affil_id": 11271,
-    "name": "Paul Schrage",
-    "project": "Paul Schrage"
   },
   {
     "affil_id": 11572,
@@ -808,21 +285,6 @@
     "project": "Persephone Chamber Ensemble"
   },
   {
-    "affil_id": 11339,
-    "name": "Picasso Quartet",
-    "project": "Picasso Quartet"
-  },
-  {
-    "affil_id": 11340,
-    "name": "Piedmont Chamber Orchestra",
-    "project": "Piedmont Chamber Orchestra"
-  },
-  {
-    "affil_id": 11273,
-    "name": "J. Kit Eakle",
-    "project": "Point Richmond Jazz"
-  },
-  {
     "affil_id": 11274,
     "name": "Debbie Dare",
     "project": "Pro Musica Ensemble"
@@ -833,19 +295,9 @@
     "project": "Quartet San Francisco"
   },
   {
-    "affil_id": 11276,
-    "name": "Armando Castellano",
-    "project": "Quinteto Latino"
-  },
-  {
     "affil_id": 11350,
     "name": "Raffi Garabedian",
     "project": "Raffi Garabedian"
-  },
-  {
-    "affil_id": 11433,
-    "name": "Jesse Bay",
-    "project": "Ramon & Jessica"
   },
   {
     "affil_id": 11277,
@@ -858,11 +310,6 @@
     "project": "Rent Romus, Affiliate"
   },
   {
-    "affil_id": 11341,
-    "name": "Rhythm Sisters",
-    "project": "Rhythm Sisters"
-  },
-  {
     "affil_id": 11279,
     "name": "Rohan Krishnamurthy",
     "project": "Rohan Krishnamurthy"
@@ -873,48 +320,14 @@
     "project": "Ross McKee Foundation"
   },
   {
-    "affil_id": 11280,
-    "name": "Tibor Szabo",
-    "project": "Salle Pianos"
-  },
-  {
-    "affil_id": 11281,
-    "name": "Karsten Windt",
-    "project": "Salon Classique"
-  },
-  {
     "affil_id": 11282,
     "name": "Sam Reider",
     "project": "Sam Reider"
   },
   {
-    "affil_id": 2013,
-    "name": "San Francisco Piano Quartet",
-    "project": "San Francisco Piano Quartet"
-  },
-  {
-    "affil_id": 11283,
-    "name": "Sandy Cressman",
-    "project": "Sandy Cressman / Homenagem Brasileira"
-  },
-  {
     "affil_id": 11221,
     "name": "Eric Harland",
     "project": "Second Take Sound LLC"
-  },
-  {
-    "affil_id": 11427,
-    "project": "SF Guitar Quartet"
-  },
-  {
-    "affil_id": 11284,
-    "name": "SF New Music",
-    "project": "SF New Music"
-  },
-  {
-    "affil_id": 11285,
-    "name": "Alex Pinto",
-    "project": "SF Offside Festival"
   },
   {
     "affil_id": 11286,
@@ -927,34 +340,14 @@
     "project": "sfSound"
   },
   {
-    "affil_id": 11288,
-    "name": "Sheldon Brown Group",
-    "project": "Sheldon Brown Group"
-  },
-  {
-    "affil_id": 11289,
-    "name": "Sheli Nan",
-    "project": "Sheli Nan"
-  },
-  {
     "affil_id": 11290,
     "name": "Janis Lieberman",
     "project": "Sierra Ensemble"
   },
   {
-    "affil_id": 11291,
-    "name": "James Jaffe",
-    "project": "Sierra Quartet"
-  },
-  {
     "affil_id": 11570,
     "name": "Edward Simon",
     "project": "Simon Music Productions Inc"
-  },
-  {
-    "affil_id": 11342,
-    "name": "Skerries",
-    "project": "Skerries / Bill Horvitz"
   },
   {
     "affil_id": 11568,
@@ -967,11 +360,6 @@
     "project": "Sonic Forest"
   },
   {
-    "affil_id": 11293,
-    "name": "Allen Shearer",
-    "project": "Sonic Harvest"
-  },
-  {
     "affil_id": 11294,
     "name": "Alexandra Iranfar, Timothy Sherren",
     "project": "SopraDuo"
@@ -980,16 +368,6 @@
     "affil_id": 11295,
     "name": "Kyle Bruckmann",
     "project": "Splinter Reeds"
-  },
-  {
-    "affil_id": 11296,
-    "name": "Jeffrey Anderle",
-    "project": "Sqwonk"
-  },
-  {
-    "affil_id": 11297,
-    "name": "Catlin Keen",
-    "project": "String Assembly"
   },
   {
     "affil_id": 11298,
@@ -1002,34 +380,9 @@
     "project": "Summer at The Hidden Cafe"
   },
   {
-    "affil_id": 11299,
-    "name": "Rebecca Racusin",
-    "project": "Sunset Duo"
-  },
-  {
-    "affil_id": 11343,
-    "name": "Swineshead Productions",
-    "project": "Swineshead Productions"
-  },
-  {
-    "affil_id": 11300,
-    "name": "Martha G. Russell",
-    "project": "Tahoe Music Alive"
-  },
-  {
     "affil_id": 11301,
     "name": "Joseph Maile, Pei-Ling Lin",
     "project": "Telegraph Quartet"
-  },
-  {
-    "affil_id": 11302,
-    "name": "Terrence Brewer",
-    "project": "Terrence Brewer"
-  },
-  {
-    "affil_id": 11303,
-    "name": "Luis Bellouin",
-    "project": "Thalea String Quartet"
   },
   {
     "affil_id": 11304,
@@ -1047,24 +400,9 @@
     "project": "Tin Yi Wong Piano at the Palace"
   },
   {
-    "affil_id": 11307,
-    "name": "Mimi Dye",
-    "project": "TOPAZ"
-  },
-  {
-    "affil_id": 11308,
-    "name": "Lewis Patzner",
-    "project": "Town Quartet"
-  },
-  {
     "affil_id": 11309,
     "name": "Ian Scarfe",
     "project": "Trinity Alps Chamber Music"
-  },
-  {
-    "affil_id": 11310,
-    "name": "Sonia Leong",
-    "project": "Trio 180"
   },
   {
     "affil_id": 11311,
@@ -1072,53 +410,18 @@
     "project": "Trois Bois"
   },
   {
-    "affil_id": 11344,
-    "name": "Two Blind Mice",
-    "project": "Two Blind Mice"
-  },
-  {
-    "affil_id": 11312,
-    "name": "Gary Schwantes",
-    "project": "Ultra World X-tet"
-  },
-  {
-    "affil_id": 11313,
-    "name": "Valley of the Moon Festival",
-    "project": "Valley of the Moon Festival"
-  },
-  {
-    "affil_id": 11314,
-    "name": "Nanette McGuinness",
-    "project": "Vinaccesi Ensemble"
-  },
-  {
     "affil_id": 11315,
     "name": "Emily Onderdonk",
     "project": "Vitamin Em"
   },
   {
-    "affil_id": 11316,
-    "name": "Indre Viskontas",
-    "project": "Vocallective"
-  },
-  {
-    "affil_id": 11317,
-    "name": "Sophie Huet",
-    "project": "Wild Rumpus / Ninth Planet"
-  },
-  {
-    "affil_id": 11318,
-    "name": "Cornelius Boots",
-    "project": "Woodwind Nature"
-  },
-  {
-    "affil_id": 11319,
-    "name": "Susan Bates",
-    "project": "Young Chamber Musicians"
-  },
-  {
     "affil_id": 11320,
     "name": "Eva Maria Zimmermann",
     "project": "ZOFO"
+  },
+  {
+    "affil_id": 9480,
+    "name": "IMSF",
+    "project": "IMSF"
   }
 ]
