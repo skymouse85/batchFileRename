@@ -60,7 +60,18 @@ function populateAffiliates(affiliates) {
 }
 
 
-
+function formatCurrency(value) {
+    const number = Number(value.replace(/[^0-9.-]+/g,""));
+    if (isNaN(number)) {
+        console.error("Invalid number for formatting");
+        return "";
+    }
+    const formatter = new Intl.NumberFormat('en-US', {
+        style: 'currency',
+        currency: 'USD'
+    });
+    return formatter.format(number)
+}
 
 
 function renameFiles() {
@@ -89,16 +100,25 @@ function renameFiles() {
     const recVendor = document.getElementById('recVendor').value;
     const recAmount = document.getElementById('recAmount').value;
     const recDetails = document.getElementById('recDetails').value;
+
+   
     // const cy = document.getElementById('cy').value;
     // const affiliateIdSelect = document.getElementById('affiliateIdSelect').value;
     // const affiliateProjectSelect = document.getElementById('affiliateProjectSelect').value;
     console.log("Affiliate ID:", affil_id);
     console.log("Affiliate Project:", project);
+    //check for files
+    if (files.length === 0) {
+        window.alert("😔 You have not selected any files to rename 😔")
+        return;
+    }
 
     downloadLinks.innerHTML = ''; // Clear previous links
 
     Array.from(files).forEach((file, index) => {
         const extension = file.name.split('.').pop(); // Get the file extension
+        const formattedAmount = formatCurrency(amount);
+        const formattedRecAmount = formatCurrency(recAmount);
         let newFileName;
 
         if (keepOriginalName) {
@@ -118,13 +138,13 @@ function renameFiles() {
         }
         // Recepits Rename
         if (recDate) {
-            newFileName = `${recDate} ${recVendor} ${recAmount} ${recDetails}.${extension}`;
+            newFileName = `${recDate} ${recVendor} ${formattedRecAmount} ${recDetails}.${extension}`;
         }
 
         // const affiliateValue = affiliateProjectSelect.value; // or affiliateIdSelect.value based on your need
 
         if (checks) {
-            newFileName = `${checkDepNum} ${checkDate} ${chNum} - ${donor} - ${amount} - ${project}.${extension}`;
+            newFileName = `${checkDepNum} ${checkDate} ${chNum} - ${donor} - ${formattedAmount} - ${project}.${extension}`;
         }
         if (agreement) {
             newFileName = `${affil_id} ${project} - FSP Agreement CY24.${extension}`;
