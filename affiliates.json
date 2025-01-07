@@ -125,6 +125,11 @@
     "project": "David James's GPS"
   },
   {
+    "affil_id": 11193,
+    "name": "Davide Verotta",
+    "project": "Davide Verotta"
+  },
+  {
     "affil_id": 11194,
     "name": "Marcus Phillips",
     "project": "Deep Tones"
@@ -424,4 +429,5 @@
     "name": "IMSF",
     "project": "IMSF"
   }
+
 ]
