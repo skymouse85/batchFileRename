@@ -3,15 +3,15 @@ const xlsx = require('xlsx');
 const fs = require('fs');
 const path = require('path');
 
-const workbook = xlsx.readFile(path.resolve(__dirname, 'data/241119_affiliate_export_v5.xlsx'));
+const workbook = xlsx.readFile(path.resolve(__dirname, 'data/20250128_Affiliate_Export_V2.xlsm'));
 const sheetName = workbook.SheetNames[0];
 const worksheet = workbook.Sheets[sheetName];
 const data = xlsx.utils.sheet_to_json(worksheet);
 
 const affiliates = data.map(row => ({
     affil_id: row.id,  // Make sure 'code' matches your Excel column name
-    name: row.name,
-    project: row.project
+    name: row.opt_line,
+    project: row.last_name
       // Make sure 'description' matches your Excel column name
 }));
 

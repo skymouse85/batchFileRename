@@ -30,6 +30,11 @@
     "project": "Alexander String Quartet"
   },
   {
+    "affil_id": 11160,
+    "name": "Amy Stephens",
+    "project": "Amy Stephens"
+  },
+  {
     "affil_id": 11161,
     "name": "Amy X Neuberg",
     "project": "Amy X Neuburg"
@@ -50,19 +55,24 @@
     "project": "Anna Maria Mendieta"
   },
   {
+    "affil_id": 12744,
+    "name": "Anne Sajdera",
+    "project": "Anne Sajdera Affiliate"
+  },
+  {
     "affil_id": 11451,
     "name": "Emily Tian",
     "project": "ARc duET"
   },
   {
-    "affil_id": 11595,
-    "name": "Annah Sidigu",
-    "project": "Artists Resisting Exploitation"
-  },
-  {
     "affil_id": 11165,
     "name": "Mia Nardi-Huffman",
     "project": "Astraeus String Quartet"
+  },
+  {
+    "affil_id": 11166,
+    "name": "Aaron Requiro",
+    "project": "Baumer Quartet"
   },
   {
     "affil_id": 11170,
@@ -100,14 +110,24 @@
     "project": "Carla Lucero (FSP)"
   },
   {
+    "affil_id": 11184,
+    "name": "Allegra Chapman",
+    "project": "Chordless"
+  },
+  {
     "affil_id": 11186,
-    "name": "Omid Assadi",
+    "name": "David Ryther",
     "project": "Circadian String Quartet"
   },
   {
     "affil_id": 11187,
     "name": "Charith Premawardhana",
     "project": "Classical Revolution"
+  },
+  {
+    "affil_id": 11567,
+    "name": "Kana Luzmoor",
+    "project": "Collective Counterpoint"
   },
   {
     "affil_id": 11189,
@@ -160,6 +180,11 @@
     "project": "Ensemble for These Times"
   },
   {
+    "affil_id": 11982,
+    "name": "Ihang Lin",
+    "project": "Ensemble Les Six"
+  },
+  {
     "affil_id": 11208,
     "name": "Matthew Oshida",
     "project": "Farallon Quintet"
@@ -168,6 +193,11 @@
     "affil_id": 11209,
     "name": "Letitia Berlin",
     "project": "Farallon Recorder Quartet"
+  },
+  {
+    "affil_id": 11212,
+    "name": "JJ Hollingsworth",
+    "project": "Forte House"
   },
   {
     "affil_id": 11452,
@@ -198,6 +228,26 @@
     "affil_id": 11692,
     "name": "Irene Sazer",
     "project": "Irene Sazer"
+  },
+  {
+    "affil_id": 11568,
+    "name": "Jacob Lane",
+    "project": "Jacob Lane"
+  },
+  {
+    "affil_id": 11230,
+    "name": "Jared Redmond",
+    "project": "Jared Redmond"
+  },
+  {
+    "affil_id": 12745,
+    "name": "Jason Savage",
+    "project": "Jason Savage Images LLC"
+  },
+  {
+    "affil_id": 12026,
+    "name": "Daniel Levenstein",
+    "project": "Jazz Walnut Creek"
   },
   {
     "affil_id": 11232,
@@ -232,7 +282,7 @@
   {
     "affil_id": 11247,
     "name": "Mariah Parker",
-    "project": "Mariah Parker‚Äö√Ñ√¥s Indo Latin Jazz Ensemble"
+    "project": "Mariah Parker‚Äôs Indo Latin Jazz Ensemble"
   },
   {
     "affil_id": 11596,
@@ -242,7 +292,7 @@
   {
     "affil_id": 11888,
     "name": "Maya Kherani",
-    "project": "Maya Kherani"
+    "project": "Maya Kherani Affiliate"
   },
   {
     "affil_id": 11250,
@@ -260,11 +310,6 @@
     "project": "Nomad Session"
   },
   {
-    "affil_id": 11265,
-    "name": "Obed Calvaire",
-    "project": "Obed Calvaire"
-  },
-  {
     "affil_id": 11266,
     "name": "Gary Muszynski",
     "project": "One World Music / Gary Muszynski / Roots & Wings"
@@ -272,7 +317,12 @@
   {
     "affil_id": 11268,
     "name": "Pamela Freund-Striplen",
-    "project": "Pamela Freund-Striplen"
+    "project": "Pamela Freund-Striplen (Affiliate)"
+  },
+  {
+    "affil_id": 11572,
+    "name": "Pedro Jos√© Pastrana",
+    "project": "Pastrana"
   },
   {
     "affil_id": 11269,
@@ -280,14 +330,9 @@
     "project": "Patrick Galvin (FSP)"
   },
   {
-    "affil_id": 11572,
-    "name": "Pedro Josv¬© Pastrana",
-    "project": "Pedro Pastrana"
-  },
-  {
-    "affil_id": 11272,
-    "name": "Wendy Clymer",
-    "project": "Persephone Chamber Ensemble"
+    "affil_id": 11270,
+    "name": "Paul Hanson",
+    "project": "Paul Hanson (FSP)"
   },
   {
     "affil_id": 11274,
@@ -305,11 +350,6 @@
     "project": "Raffi Garabedian"
   },
   {
-    "affil_id": 11277,
-    "name": "Irene Sazer",
-    "project": "Real Vocal String Quartet"
-  },
-  {
     "affil_id": 11278,
     "name": "Rent Romus",
     "project": "Rent Romus, Affiliate"
@@ -325,9 +365,19 @@
     "project": "Ross McKee Foundation"
   },
   {
+    "affil_id": 11281,
+    "name": "Karsten Windt",
+    "project": "Salon Classique"
+  },
+  {
     "affil_id": 11282,
     "name": "Sam Reider",
     "project": "Sam Reider"
+  },
+  {
+    "affil_id": 12746,
+    "name": "Susan Pursey",
+    "project": "San Francisco Mandolin Orchestra"
   },
   {
     "affil_id": 11221,
@@ -340,9 +390,9 @@
     "project": "SF Salon Music"
   },
   {
-    "affil_id": 11287,
-    "name": "Matt Ingals",
-    "project": "sfSound"
+    "affil_id": 11595,
+    "name": "Annah Sidigu",
+    "project": "Sidigu"
   },
   {
     "affil_id": 11290,
@@ -353,11 +403,6 @@
     "affil_id": 11570,
     "name": "Edward Simon",
     "project": "Simon Music Productions Inc"
-  },
-  {
-    "affil_id": 11568,
-    "name": "Jacob Lane",
-    "project": "Sleight Ensemble"
   },
   {
     "affil_id": 11292,
@@ -375,14 +420,14 @@
     "project": "Splinter Reeds"
   },
   {
+    "affil_id": 11297,
+    "name": "Catlin Keen",
+    "project": "String Assembly"
+  },
+  {
     "affil_id": 11298,
     "name": "Kris Desby",
     "project": "Strobe"
-  },
-  {
-    "affil_id": 11567,
-    "name": "Kana Luzmoor",
-    "project": "Summer at The Hidden Cafe"
   },
   {
     "affil_id": 11301,
@@ -405,9 +450,19 @@
     "project": "Tin Yi Wong Piano at the Palace"
   },
   {
+    "affil_id": 11307,
+    "name": "Mimi Dye",
+    "project": "TOPAZ"
+  },
+  {
     "affil_id": 11309,
     "name": "Ian Scarfe",
     "project": "Trinity Alps Chamber Music"
+  },
+  {
+    "affil_id": 11310,
+    "name": "Sonia Leong",
+    "project": "Trio 180"
   },
   {
     "affil_id": 11311,
@@ -420,14 +475,13 @@
     "project": "Vitamin Em"
   },
   {
+    "affil_id": 11318,
+    "name": "Cornelius Boots",
+    "project": "Woodwind Nature"
+  },
+  {
     "affil_id": 11320,
     "name": "Eva Maria Zimmermann",
     "project": "ZOFO"
-  },
-  {
-    "affil_id": 9480,
-    "name": "IMSF",
-    "project": "IMSF"
   }
-
 ]
