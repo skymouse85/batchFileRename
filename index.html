@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>InterMusic SF File Renamer</title>
-<!-- <link rel="icon" type="image/x-icon" href="/public/InterMusicSF-LogoFramed.png"> -->
-<link rel="stylesheet" href="styles.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
-<script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+    <meta charset="UTF-8">
+    <title>InterMusic SF File Renamer</title>
+    <!-- <link rel="icon" type="image/x-icon" href="/public/InterMusicSF-LogoFramed.png"> -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+    <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
 </head>
+
 <body>
     <div class="header">
         <h1>InterMusic SF File Renaming Tool</h1>
@@ -18,12 +20,13 @@
     </div>
     <div id="main" class="body_div">
         <input type="file" id="fileInput" multiple class="file-input">
-        <input type="text" id="namingConvention" placeholder="Enter naming convention e.g., file_{n}" class="file-input">
+        <input type="text" id="namingConvention" placeholder="Enter naming convention e.g., file_{n}"
+            class="file-input">
     </div>
     <!-- Transaction Reports -->
     <div class="body_div">
         <h3 class="section-label">Transaction Report Downloads</h3>
-        <select name="platforms" id="platformSelect" class="styled-input" >
+        <select name="platforms" id="platformSelect" class="styled-input">
             <option value="" disabled selected>Platform</option>
             <option value="Stripe">Stripe</option>
             <option value="SafeSave">SafeSave</option>
@@ -31,11 +34,12 @@
             <option value="payModeX">Paymode X</option>
             <option value="Square">Square</option>
             <option value="Benevity">Benevity</option>
+            <option value="Morgan Stanley">Morgan Stanley</option>
         </select>
         <input type="text" id="depNum" placeholder="Deposit Number" class="styled-input">
         <input type="text" id="depDate" placeholder="Deposit Date" class="styled-input">
     </div>
-    
+
     <!-- Receipts -->
     <div class="body_div">
         <h3 class="section-label">Receipts</h3>
@@ -44,7 +48,7 @@
         <input type="text" id="recAmount" placeholder="Amount (ex: 60.53)" class="styled-input">
         <input type="text" id="recDetails" placeholder="Details" class="styled-input">
     </div>
-    
+
     <!-- Check Scans -->
     <div class="body_div">
         <h3 class="section-label">Check Scans</h3>
@@ -55,38 +59,38 @@
         <input type="text" id="chNum" placeholder="Check Number" class="styled-input">
         <input type="text" id="donor" placeholder="Donor" class="styled-input">
         <input type="text" id="amount" placeholder="Amount (ex: 60.53)" class="styled-input">
-    
+
     </div>
-    
-    
+
+
     <!-- Renewal Forms -->
     <div class="body_div">
         <h3 class="section-label">FSP Annual Renewal CY24 Renaming</h3>
-        <label for="agreement">Rename FSP Agreement:</label>        
-        <input type="checkbox" id="agreement"  class="checkbox" >
-        <label for="renewal">Rename Jotform Renewal Form:</label>        
-        <input type="checkbox" id="renewal"  class="checkbox" >
-        <label for="fee">Rename Jotform Annual Fee Form:</label>        
-        <input type="checkbox" id="fee"  class="checkbox">
-        <label for="photo">Rename FSP Photo:</label>    
-        <input type="checkbox" id="photo"  class="checkbox" >
-        <input type="text" id="photNum" placeholder="Photo Number" class="styled-input">    
+        <label for="agreement">Rename FSP Agreement:</label>
+        <input type="checkbox" id="agreement" class="checkbox">
+        <label for="renewal">Rename Jotform Renewal Form:</label>
+        <input type="checkbox" id="renewal" class="checkbox">
+        <label for="fee">Rename Jotform Annual Fee Form:</label>
+        <input type="checkbox" id="fee" class="checkbox">
+        <label for="photo">Rename FSP Photo:</label>
+        <input type="checkbox" id="photo" class="checkbox">
+        <input type="text" id="photNum" placeholder="Photo Number" class="styled-input">
 
     </div>
 
 
-    
+
 
 
     <!-- Common Affiliate Selection Area -->
-<div class="body_div">
-    <h3 class="section-label">Affiliate Selection</h3>
-    <!-- Unified Select for Affiliate -->
-    <select id="affiliateSelect" class="styled-input">
-        <option value="">Select an Affiliate</option>
-    </select>
-    <div>Use this for Checks Scans and all FSP Renewal affiliate selection</div>
-</div>
+    <div class="body_div">
+        <h3 class="section-label">Affiliate Selection</h3>
+        <!-- Unified Select for Affiliate -->
+        <select id="affiliateSelect" class="styled-input">
+            <option value="">Select an Affiliate</option>
+        </select>
+        <div>Use this for Checks Scans and all FSP Renewal affiliate selection</div>
+    </div>
 
     <!-- Rename general -->
     <div class="body_div">
@@ -94,7 +98,7 @@
         <label for="keepOriginalName" class="row-header">Keep original name:</label>
         <input type="checkbox" id="keepOriginalName" class="checkbox">
         <label for="replaceUnderscores">Replace underscores with spaces:</label>
-        <input type="checkbox" id="replaceUnderscores"  class="checkbox">
+        <input type="checkbox" id="replaceUnderscores" class="checkbox">
         <label for="renameSFMD">Rename SFMD Files:</label>
         <input type="checkbox" id="renameSFMD" class="checkbox">
     </div>
@@ -107,4 +111,5 @@
 
     <script src="app.js" defer></script>
 </body>
+
 </html>
