@@ -12,7 +12,6 @@ const affiliates = data.map(row => ({
     affil_id: row.id,  // Make sure 'code' matches your Excel column name
     name: row.opt_line,
     project: row.last_name
-      // Make sure 'description' matches your Excel column name
 }));
 
 // Save to a JSON file
