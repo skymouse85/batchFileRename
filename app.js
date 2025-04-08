@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // Load affiliates from a static JSON file when the page loads
     fetch('/affiliates.json')
         .then(response => {
@@ -22,7 +22,7 @@ function handleFileSelect(evt) {
     const file = files[0];
     const reader = new FileReader();
 
-    reader.onload = function(event) {
+    reader.onload = function (event) {
         const data = new Uint8Array(event.target.result);
         const workbook = XLSX.read(data, { type: 'array' });
         const firstSheetName = workbook.SheetNames[0];
@@ -61,7 +61,7 @@ function populateAffiliates(affiliates) {
 
 
 function formatCurrency(value) {
-    const number = Number(value.replace(/[^0-9.-]+/g,""));
+    const number = Number(value.replace(/[^0-9.-]+/g, ""));
     if (isNaN(number)) {
         console.error("Invalid number for formatting");
         return "";
@@ -100,8 +100,15 @@ function renameFiles() {
     const recVendor = document.getElementById('recVendor').value;
     const recAmount = document.getElementById('recAmount').value;
     const recDetails = document.getElementById('recDetails').value;
+    const grants = document.getElementById('grants').checked;
+    const grantDepNum = document.getElementById('grantDepNum').value;
+    const grantDate = document.getElementById('grantDate').value;
+    const grantNum = document.getElementById('grantNum').value;
+    const grantDonor = document.getElementById('grantDonor').value;
+    const grntAmount = document.getElementById('grntAmount').value;
 
-   
+
+
     // const cy = document.getElementById('cy').value;
     // const affiliateIdSelect = document.getElementById('affiliateIdSelect').value;
     // const affiliateProjectSelect = document.getElementById('affiliateProjectSelect').value;
@@ -119,6 +126,7 @@ function renameFiles() {
         const extension = file.name.split('.').pop(); // Get the file extension
         const formattedAmount = formatCurrency(amount);
         const formattedRecAmount = formatCurrency(recAmount);
+        const formattedGrntAmount = formatCurrency(grntAmount);
         let newFileName;
 
         if (keepOriginalName) {
@@ -146,6 +154,11 @@ function renameFiles() {
         if (checks) {
             newFileName = `${checkDepNum} ${checkDate} ${chNum} - ${donor} - ${formattedAmount} - ${project}.${extension}`;
         }
+
+        if (grants) {
+            newFileName = `${grantDepNum} ${grantDate} ${grantNum} - ${grantDonor} - ${formattedGrntAmount} - ${project}.${extension}`;
+        }
+
         if (agreement) {
             newFileName = `${affil_id} ${project} - FSP Agreement CY24.${extension}`;
         }
@@ -242,7 +255,7 @@ function renameAndDownloadFiles() {
         zip.file(newFileName, file);
     })
 
-    zip.generateAsync({ type: "blob" }).then(function(content) {
+    zip.generateAsync({ type: "blob" }).then(function (content) {
         const url = URL.createObjectURL(content);
         const link = document.createElement('a');
         link.href = url;
