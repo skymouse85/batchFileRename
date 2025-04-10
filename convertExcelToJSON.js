@@ -21,8 +21,7 @@ const data = xlsx.utils.sheet_to_json(worksheet);
 
 const affiliates = data.map(row => ({
 
-
-    affil_id: row.DONOR_ID,  // Make sure 'code' matches your Excel column name
+    affil_id: row.DONOR_ID,
     name: row.opt_line,
     project: row.last_name
 
