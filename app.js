@@ -30,12 +30,12 @@ function handleFileSelect(evt) {
         const json = XLSX.utils.sheet_to_json(worksheet);
 
         const affiliates = json.map(row => ({
-            affil_id: row.id,  // Make sure 'code' matches your Excel column name
+            affil_id: row.id,
             name: row.name,
             project: row.project
         }));
 
-        // populateAffiliates(affiliates);
+
     };
 
     reader.readAsArrayBuffer(file);
@@ -77,7 +77,7 @@ function formatCurrency(value) {
 function renameFiles() {
     const files = document.getElementById('fileInput').files;
     const affiliateValue = document.getElementById('affiliateSelect').value;
-    const [affil_id, project] = affiliateValue.split('|');  // Split the value back into ID and Project
+    const [affil_id, project] = affiliateValue.split('|');
     const namingConvention = document.getElementById('namingConvention').value;
     const replaceUnderscores = document.getElementById('replaceUnderscores').checked;
     const downloadLinks = document.getElementById('downloadLinks');
@@ -214,9 +214,9 @@ function renameSFMDFiles() {
 
 function renameSFMDFile(originalName) {
     // Logic to process filenames starting with "SFMD"
-    const pattern = /^SFMD_24_\d{2}/;  // Adjust regex as necessary
+    const pattern = /^SFMD_24_\d{2}/;
     if (pattern.test(originalName)) {
-        const index = originalName.indexOf('_', 10);  // Find the position after "SFMD_24_XX"
+        const index = originalName.indexOf('_', 10);
         const preservedPart = originalName.substring(0, index);
         const rest = originalName.substring(index).replace(/_/g, ' ');
         return preservedPart + rest;
