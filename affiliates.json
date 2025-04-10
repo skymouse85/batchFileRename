@@ -5,24 +5,9 @@
     "project": "African American Composer Initiative (AACI)"
   },
   {
-    "affil_id": 11151,
-    "name": "Matthew Cmiel",
-    "project": "After Everything"
-  },
-  {
     "affil_id": 11152,
     "name": "Aaron Westman",
     "project": "Agave"
-  },
-  {
-    "affil_id": 11153,
-    "name": "Tiffany Austin",
-    "project": "Albany Juneteenth Celebration"
-  },
-  {
-    "affil_id": 11154,
-    "name": "Amy Likar",
-    "project": "Alcyone Ensemble"
   },
   {
     "affil_id": 11155,
@@ -50,24 +35,14 @@
     "project": "Anderson & Roe"
   },
   {
-    "affil_id": 11163,
-    "name": "Anna Maria Mendieta",
-    "project": "Anna Maria Mendieta"
-  },
-  {
     "affil_id": 12744,
     "name": "Anne Sajdera",
-    "project": "Anne Sajdera Affiliate"
+    "project": "Anne Sajdera (FSP)"
   },
   {
     "affil_id": 11451,
     "name": "Emily Tian",
     "project": "ARc duET"
-  },
-  {
-    "affil_id": 11165,
-    "name": "Mia Nardi-Huffman",
-    "project": "Astraeus String Quartet"
   },
   {
     "affil_id": 11166,
@@ -102,7 +77,7 @@
   {
     "affil_id": 12008,
     "name": "Caleb Rose",
-    "project": "The Bridge Music Collective"
+    "project": "Bridge Music Collective"
   },
   {
     "affil_id": 11733,
@@ -116,18 +91,13 @@
   },
   {
     "affil_id": 12084,
-    "name": "Chelsea Hollow",
+    "name": "Chelsea Eldredge",
     "project": "Chelsea Hollow and Taylor Chan"
   },
   {
     "affil_id": 11184,
     "name": "Allegra Chapman",
     "project": "Chordless"
-  },
-  {
-    "affil_id": 11186,
-    "name": "David Ryther",
-    "project": "Circadian String Quartet"
   },
   {
     "affil_id": 11187,
@@ -170,16 +140,6 @@
     "project": "Destiny Muhammad Project"
   },
   {
-    "affil_id": 11198,
-    "name": "Tiffany Austin",
-    "project": "Diaspora Sessions"
-  },
-  {
-    "affil_id": 11348,
-    "name": "Robert Bead",
-    "project": "ECHO Chamber Orchestra"
-  },
-  {
     "affil_id": 11752,
     "name": "Mia Chong",
     "project": "EIGHT/MOVES"
@@ -190,24 +150,14 @@
     "project": "Ensemble for These Times"
   },
   {
-    "affil": 12782,
+    "affil_id": 12782,
     "name": "Ayaka Isono",
-    "project": "Ensemble Humanité"
+    "project": "Ensemble Humanit√©"
   },
   {
     "affil_id": 11982,
     "name": "Ihang Lin",
     "project": "Ensemble Les Six"
-  },
-  {
-    "affil_id": 11208,
-    "name": "Matthew Oshida",
-    "project": "Farallon Quintet"
-  },
-  {
-    "affil_id": 11209,
-    "name": "Letitia Berlin",
-    "project": "Farallon Recorder Quartet"
   },
   {
     "affil_id": 11212,
@@ -230,24 +180,19 @@
     "project": "George Brooks"
   },
   {
-    "affil_id": 11224,
-    "name": "Emma Logan",
-    "project": "Helia Music Collective"
-  },
-  {
     "affil_id": 11226,
     "name": "Ian Dogole",
     "project": "Ian Dogole & Music Beyond Borders"
   },
   {
+    "affil_id": 9480,
+    "name": "InterMusic SF",
+    "project": "IMSF"
+  },
+  {
     "affil_id": 11692,
     "name": "Irene Sazer",
     "project": "Irene Sazer"
-  },
-  {
-    "affil_id": 11568,
-    "name": "Jacob Lane",
-    "project": "Jacob Lane"
   },
   {
     "affil_id": 11230,
@@ -260,14 +205,14 @@
     "project": "Jason Savage Images LLC"
   },
   {
-    "affil_id": 12755,
-    "name": "Jean Carla Rodea",
-    "project": "Jean Carla Rodea"
-  },
-  {
     "affil_id": 12026,
     "name": "Daniel Levenstein",
     "project": "Jazz Walnut Creek"
+  },
+  {
+    "affil_id": 12775,
+    "name": "Jean Carla Rodea",
+    "project": "Jean Carla Rodea"
   },
   {
     "affil_id": 11232,
@@ -290,34 +235,24 @@
     "project": "Kurt Erickson"
   },
   {
-    "affil_id": 11237,
-    "name": "Ruth  Stuart",
-    "project": "La Sala Chamber Players"
-  },
-  {
-    "affil_id": 11239,
-    "name": "Angela Lee",
-    "project": "Lee Trio"
-  },
-  {
     "affil_id": 11247,
     "name": "Mariah Parker",
     "project": "Mariah Parker‚Äôs Indo Latin Jazz Ensemble"
   },
   {
-    "affil_id": 11596,
-    "name": "Max Van Praag",
-    "project": "Max Van Praag"
-  },
-  {
     "affil_id": 11888,
     "name": "Maya Kherani",
-    "project": "Maya Kherani Affiliate"
+    "project": "Maya Kherani (FSP)"
   },
   {
     "affil_id": 11250,
     "name": "Meerenai Shim",
     "project": "Meerenai Shim"
+  },
+  {
+    "affil_id": 11253,
+    "name": "Derek Tam",
+    "project": "MUSA"
   },
   {
     "affil_id": 11256,
@@ -337,7 +272,7 @@
   {
     "affil_id": 11268,
     "name": "Pamela Freund-Striplen",
-    "project": "Pamela Freund-Striplen (Affiliate)"
+    "project": "Pamela Freund-Striplen"
   },
   {
     "affil_id": 11572,
@@ -375,16 +310,6 @@
     "project": "Rent Romus, Affiliate"
   },
   {
-    "affil_id": 11279,
-    "name": "Rohan Krishnamurthy",
-    "project": "Rohan Krishnamurthy"
-  },
-  {
-    "affil_id": 8563,
-    "name": "Nicholas Pavkovic",
-    "project": "Ross McKee Foundation"
-  },
-  {
     "affil_id": 11281,
     "name": "Karsten Windt",
     "project": "Salon Classique"
@@ -392,7 +317,7 @@
   {
     "affil_id": 11282,
     "name": "Sam Reider",
-    "project": "Sam Reider"
+    "project": "Sam Reider (FSP)"
   },
   {
     "affil_id": 12746,
@@ -410,11 +335,6 @@
     "project": "SF Salon Music"
   },
   {
-    "affil_id": 11595,
-    "name": "Annah Sidigu",
-    "project": "Sidigu"
-  },
-  {
     "affil_id": 11290,
     "name": "Janis Lieberman",
     "project": "Sierra Ensemble"
@@ -425,14 +345,14 @@
     "project": "Simon Music Productions Inc"
   },
   {
+    "affil_id": 11568,
+    "name": "Jacob Lane",
+    "project": "Sleight Ensemble"
+  },
+  {
     "affil_id": 11292,
     "name": "Brenda Schuman-Post",
     "project": "Sonic Forest"
-  },
-  {
-    "affil_id": 11294,
-    "name": "Alexandra Iranfar, Timothy Sherren",
-    "project": "SopraDuo"
   },
   {
     "affil_id": 11295,
@@ -455,26 +375,6 @@
     "project": "Telegraph Quartet"
   },
   {
-    "affil_id": 11304,
-    "name": "Letitia Berlin",
-    "project": "Tibia Recorder Duo"
-  },
-  {
-    "affil_id": 11305,
-    "name": "Tiffany Austin",
-    "project": "Tiffany Austin - Con Alma Music Scholarship"
-  },
-  {
-    "affil_id": 11306,
-    "name": "Tin Yi Chelsea Tin Yi Wong",
-    "project": "Tin Yi Wong Piano at the Palace"
-  },
-  {
-    "affil_id": 11307,
-    "name": "Mimi Dye",
-    "project": "TOPAZ"
-  },
-  {
     "affil_id": 11309,
     "name": "Ian Scarfe",
     "project": "Trinity Alps Chamber Music"
@@ -490,11 +390,6 @@
     "project": "Trois Bois"
   },
   {
-    "affil_id": 11315,
-    "name": "Emily Onderdonk",
-    "project": "Vitamin Em"
-  },
-  {
     "affil_id": 11318,
     "name": "Cornelius Boots",
     "project": "Woodwind Nature"
@@ -503,10 +398,5 @@
     "affil_id": 11320,
     "name": "Eva Maria Zimmermann",
     "project": "ZOFO"
-  },
-  {
-    "affil_id": 9480,
-    "name": "InterMusic SF",
-    "project": "IMSF"
   }
 ]
