@@ -187,6 +187,12 @@ function renameFiles() {
     });
 }
 
+window.addEventListener('keydown', function (event) {
+    if (event.key === 'Enter') {
+        renameFiles();
+    }
+})
+
 
 function renameSFMDFiles() {
     const files = document.getElementById('fileInput').files;
