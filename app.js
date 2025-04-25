@@ -187,6 +187,7 @@ function renameFiles() {
     });
 }
 
+//Run renameFiles on Enter keydown
 window.addEventListener('keydown', function (event) {
     if (event.key === 'Enter') {
         renameFiles();
