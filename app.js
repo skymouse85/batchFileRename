@@ -59,6 +59,12 @@ function populateAffiliates(affiliates) {
     });
 }
 
+function getCustomDateString() {
+    const now = new Date();
+    const year = now.getFullYear().toString().slice(-2);
+    const month = String(now.getMonth() + 1).padStart(2, '0');
+    return `${year}${month}XX`
+}
 
 function formatCurrency(value) {
     const number = Number(value.replace(/[^0-9.-]+/g, ""));
@@ -87,6 +93,7 @@ function renameFiles() {
     const checks = document.getElementById('checks').checked;
     const renewal = document.getElementById('renewal').checked;
     const fee = document.getElementById('fee').checked;
+    const apInvoices = document.getElementById('apInvoices').checked;
     const photo = document.getElementById('photo').checked;
     const agreement = document.getElementById('agreement').checked;
     const checkDepNum = document.getElementById('checkDepNum').value;
@@ -100,6 +107,7 @@ function renameFiles() {
     const recVendor = document.getElementById('recVendor').value;
     const recAmount = document.getElementById('recAmount').value;
     const recDetails = document.getElementById('recDetails').value;
+    const apDetails = document.getElementById('apDetails').value;
     const grants = document.getElementById('grants').checked;
     const grantDepNum = document.getElementById('grantDepNum').value;
     const grantDate = document.getElementById('grantDate').value;
@@ -127,6 +135,7 @@ function renameFiles() {
         const formattedAmount = formatCurrency(amount);
         const formattedRecAmount = formatCurrency(recAmount);
         const formattedGrntAmount = formatCurrency(grntAmount);
+        const formattedAPDate = getCustomDateString();
         let newFileName;
 
         if (keepOriginalName) {
@@ -150,6 +159,10 @@ function renameFiles() {
         }
 
         // const affiliateValue = affiliateProjectSelect.value; // or affiliateIdSelect.value based on your need
+
+        if (apInvoices) {
+            newFileName = `${formattedAPDate} ${project} ${amount} [CHK#${chNum} ${checkDate}] ${apDetails}.${extension}`
+        }
 
         if (checks) {
             newFileName = `${checkDepNum} ${checkDate} ${chNum} - ${donor} - ${formattedAmount} - ${project}.${extension}`;
