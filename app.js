@@ -93,7 +93,11 @@ function renameFiles() {
     const checks = document.getElementById('checks').checked;
     const renewal = document.getElementById('renewal').checked;
     const fee = document.getElementById('fee').checked;
+    // APinvoices
     const apInvoices = document.getElementById('apInvoices').checked;
+    const aPamount = document.getElementById('aPamount').value;
+    const aPcheckDate = document.getElementById('aPcheckDate').value;
+    const aPchNum = document.getElementById('aPchNum').value;
     const photo = document.getElementById('photo').checked;
     const agreement = document.getElementById('agreement').checked;
     const checkDepNum = document.getElementById('checkDepNum').value;
@@ -161,7 +165,7 @@ function renameFiles() {
         // const affiliateValue = affiliateProjectSelect.value; // or affiliateIdSelect.value based on your need
 
         if (apInvoices) {
-            newFileName = `${formattedAPDate} ${project} ${amount} [CHK#${chNum} ${checkDate}] ${apDetails}.${extension}`
+            newFileName = `${formattedAPDate} ${project} ${aPamount} [CHK#${aPchNum} ${aPcheckDate}] ${apDetails}.${extension}`
         }
 
         if (checks) {
