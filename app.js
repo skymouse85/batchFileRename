@@ -138,6 +138,7 @@ function renameFiles() {
         const extension = file.name.split('.').pop(); // Get the file extension
         const formattedAmount = formatCurrency(amount);
         const formattedRecAmount = formatCurrency(recAmount);
+        const formattedApAmount = formatCurrency(aPamount);
         const formattedGrntAmount = formatCurrency(grntAmount);
         const formattedAPDate = getCustomDateString();
         let newFileName;
