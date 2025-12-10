@@ -166,7 +166,7 @@ function renameFiles() {
         // const affiliateValue = affiliateProjectSelect.value; // or affiliateIdSelect.value based on your need
 
         if (apInvoices) {
-            newFileName = `${formattedAPDate} ${project} ${aPamount} [CHK#${aPchNum} ${aPcheckDate}] ${apDetails}.${extension}`
+            newFileName = `${formattedAPDate} ${formattedApAmount} [CHK#${aPchNum} ${aPcheckDate}] ${apDetails}.${extension}`
         }
 
         if (checks) {
