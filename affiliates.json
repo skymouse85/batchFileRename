@@ -1,9 +1,15 @@
 [
   {
+    "affil_id": 13000,
+    "name": "peter Bransten",
+    "project": "3232 Music"
+  },
+  {
     "affil_id": 11150,
     "name": "Jodi Gandolfi",
     "project": "African American Composer Initiative (AACI)"
   },
+
   {
     "affil_id": 11151,
     "name": "MAtthew Cmiel",
@@ -123,6 +129,11 @@
     "affil_id": 11567,
     "name": "Kana Luzmoor",
     "project": "Collective Counterpoint"
+  },
+  {
+    "affil_id": 13050,
+    "name": "Merlin Coleman",
+    "project": "Merlin Coleman"
   },
   {
     "affil_id": 11189,
@@ -310,6 +321,11 @@
     "project": "Pamela Freund-Striplen"
   },
   {
+    "affil_id": 13051,
+    "name": "Hasan Abualhaj",
+    "project": "Parallax Concerts"
+  },
+  {
     "affil_id": 11572,
     "name": "Pedro Jose Pastrana",
     "project": "Pastrana"
@@ -343,6 +359,16 @@
     "affil_id": 11278,
     "name": "Rent Romus",
     "project": "Rent Romus, Affiliate"
+  },
+  {
+    "affil_id": 13053,
+    "name": "Tom Stone",
+    "project": "Resonance String Quartet Fellowship"
+  },
+  {
+    "affil_id": 13001,
+    "name": "Ruthie Dineen",
+    "project": "Ruthie Dineen"
   },
   {
     "affil_id": 11281,
@@ -395,9 +421,19 @@
     "project": "Sonic Forest"
   },
   {
+    "affil_id": 13264,
+    "name": "Renee Qin",
+    "project": "Sound Palette"
+  },
+  {
     "affil_id": 11295,
     "name": "Kyle Bruckmann",
     "project": "Splinter Reeds"
+  },
+  {
+    "affil_id": 13299,
+    "name": "Lucian Balmer",
+    "project": "Spruce Ritual"
   },
   {
     "affil_id": 11297,
