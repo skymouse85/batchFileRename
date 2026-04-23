@@ -100,11 +100,11 @@ function renameFiles() {
     const aPchNum = document.getElementById('aPchNum').value;
     const photo = document.getElementById('photo').checked;
     const agreement = document.getElementById('agreement').checked;
-    const checkDepNum = document.getElementById('checkDepNum').value;
+    // const checkDepNum = document.getElementById('checkDepNum').value;
     const checkDate = document.getElementById('checkDate').value;
     const depDate = document.getElementById('depDate').value;
     const chNum = document.getElementById('chNum').value;
-    const donor = document.getElementById('donor').value;
+    // const donor = document.getElementById('donor').value;
     const amount = document.getElementById('amount').value;
     const photNum = document.getElementById('photNum').value;
     const recDate = document.getElementById('recDate').value;
@@ -170,7 +170,7 @@ function renameFiles() {
         }
 
         if (checks) {
-            newFileName = `${checkDepNum} ${checkDate} ${chNum} - ${donor} - ${formattedAmount} - ${project}.${extension}`;
+            newFileName = `${checkDate} ${project} ${formattedAmount}  [CHK#${chNum}]  Disbursement Request.${extension}`;
         }
 
         if (grants) {
