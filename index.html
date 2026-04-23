@@ -43,13 +43,23 @@
 
     <!-- Receipts -->
     <div class="body_div">
-        <h3 class="section-label">Receipts</h3>
+        <h3 class="section-label">Receipts (use this for ACH disbursements as well)</h3>
         <input type="text" id="recDate" placeholder="Receipt Date" class="styled-input">
         <input type="text" id="recVendor" placeholder="Vendor" class="styled-input">
         <input type="text" id="recAmount" placeholder="Amount (ex: 60.53)" class="styled-input">
         <input type="text" id="recDetails" placeholder="Details" class="styled-input">
     </div>
 
+     <!-- Check Scans -->
+    <div class="body_div">
+        <h3 class="section-label">Disbursements Requests - Checks</h3>
+        <input type="checkbox" id="checks">
+        <label for="checks">Rename Disbursement Request paid by check</label>
+        <input type="text" id="checkDate" placeholder="Check Date" class="styled-input">
+        <input type="text" id="chNum" placeholder="Check Number" class="styled-input">
+        <input type="text" id="amount" placeholder="Amount (ex: 60.53)" class="styled-input">
+
+    </div>
 
     <!-- AP Check Payment Receipts -->
     <div class="body_div">
@@ -62,16 +72,7 @@
 
     </div>
 
-    <!-- Check Scans -->
-    <div class="body_div">
-        <h3 class="section-label">Disbursements Requests - Checks</h3>
-        <input type="checkbox" id="checks">
-        <label for="checks">Rename Disbursement Request paid by check</label>
-        <input type="text" id="checkDate" placeholder="Check Date" class="styled-input">
-        <input type="text" id="chNum" placeholder="Check Number" class="styled-input">
-        <input type="text" id="amount" placeholder="Amount (ex: 60.53)" class="styled-input">
-
-    </div>
+   
     <!-- Grant Reports -->
     <div class="body_div">
         <h3 class="section-label">Grant Reports</h3>
