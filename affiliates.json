@@ -316,6 +316,11 @@
     "project": "MUSA"
   },
   {
+    "affil_id": 13397,
+    "name": "Emily Shumway",
+    "project": "Music, Art, and Adventure"
+  },
+  {
     "affil_id": 11256,
     "name": "Nancy Zhou",
     "project": "Nancy Zhou, Affiliate"
@@ -476,6 +481,11 @@
     "project": "Telegraph Quartet"
   },
   {
+    "affil_id": 13436,
+    "name": "Audrey Chen",
+    "project": "Terra String Quartet"
+  },
+  {
     "affil_id": 11309,
     "name": "Ian Scarfe",
     "project": "Trinity Alps Chamber Music"
@@ -500,6 +510,11 @@
     "name": "Cornelius Boots",
     "project": "Woodwind Nature"
   },
+  {
+    "affil_id": 13394,
+    "name": "Margaret Stutt",
+    "project": "ZETI"
+  }
   {
     "affil_id": 11320,
     "name": "Eva Maria Zimmermann",
