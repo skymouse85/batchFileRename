@@ -1,13 +1,14 @@
 {
-    "version": 2,
-    "public": true,
- 
-    "headers": [
+  "version": 2,
+  "headers": [
+    {
+      "source": "/public/(.*)",
+      "headers": [
         {
-          "source": "/public/(.*)",
-          "headers": [
-            { "key": "Cache-Control", "value": "max-age=0" }
-          ]
+          "key": "Cache-Control",
+          "value": "max-age=0"
         }
       ]
-  }
+    }
+  ]
+}
