@@ -2,7 +2,7 @@
   "version": 2,
   "headers": [
     {
-      "source": "/public/(.*)",
+      "source": "/affiliates.json",
       "headers": [
         {
           "key": "Cache-Control",
